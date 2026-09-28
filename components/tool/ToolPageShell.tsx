@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import type { Tool } from "@/lib/tools/types";
 import { categories } from "@/lib/tools/categories";
+import { SocialShareBar } from "@/components/tool/SocialShareBar";
 
 interface ToolPageShellProps {
   tool: Tool;
@@ -105,40 +106,12 @@ export function ToolPageShell({
         </p>
 
         {/* Share Buttons */}
-        <div className="mt-5 flex flex-wrap items-center gap-2">
-          <a
-            href={`https://www.facebook.com/sharer.php?u=${encodeURIComponent(canonicalUrl)}`}
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-            className="inline-flex items-center gap-1.5 rounded-xs bg-[#1877f2] px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90 transition"
-          >
-            Facebook
-          </a>
-          <a
-            href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(canonicalUrl)}&text=${encodeURIComponent(tool.h1)}`}
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-            className="inline-flex items-center gap-1.5 rounded-xs bg-[#161616] border border-[#333] px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90 transition"
-          >
-            X (Twitter)
-          </a>
-          <a
-            href={`https://api.whatsapp.com/send?text=${encodeURIComponent(tool.h1 + " " + canonicalUrl)}`}
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-            className="inline-flex items-center gap-1.5 rounded-xs bg-[#25d366] px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90 transition"
-          >
-            WhatsApp
-          </a>
-          <a
-            href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(canonicalUrl)}`}
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-            className="inline-flex items-center gap-1.5 rounded-xs bg-[#0a66c2] px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90 transition"
-          >
-            LinkedIn
-          </a>
-        </div>
+        <SocialShareBar
+          url={canonicalUrl}
+          title={tool.h1}
+          summary={tool.subhead}
+          variant="top-header"
+        />
       </div>
 
       {/* SmartMag 2-Column Layout: 8/12 Main Content + 4/12 Right Sidebar */}
@@ -291,6 +264,14 @@ export function ToolPageShell({
               ))}
             </div>
           </section>
+
+          {/* Social Share Callout at Bottom of Content */}
+          <SocialShareBar
+            url={canonicalUrl}
+            title={tool.h1}
+            summary={tool.subhead}
+            variant="bottom-cta"
+          />
         </div>
 
         {/* Right Sidebar (4/12) matching SmartMag .main-sidebar */}
