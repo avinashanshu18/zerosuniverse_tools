@@ -1,6 +1,7 @@
 import type { Tool } from "@/lib/tools/types";
 import { wave2Tools } from "@/lib/tools/wave2Tools";
 import { wave3Tools } from "@/lib/tools/wave3Tools";
+import { wave4Tools } from "@/lib/tools/wave4Tools";
 
 export const tools: Tool[] = [
   // =========================================================================
@@ -2374,6 +2375,7 @@ export const tools: Tool[] = [
   },
   ...wave2Tools,
   ...wave3Tools,
+  ...wave4Tools,
 ];
 
 export function getToolBySlug(slug: string): Tool | undefined {

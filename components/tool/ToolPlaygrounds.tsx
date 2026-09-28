@@ -9,6 +9,8 @@ import { wave2CyberPlaygrounds } from "@/components/tool/Wave2CyberPlaygrounds";
 import { wave2HardwareApiPlaygrounds } from "@/components/tool/Wave2HardwareApiPlaygrounds";
 import { wave3CyberPlaygrounds } from "@/components/tool/Wave3CyberPlaygrounds";
 import { wave3HardwareMediaPlaygrounds } from "@/components/tool/Wave3HardwareMediaPlaygrounds";
+import { wave4CyberPlaygrounds } from "@/components/tool/Wave4CyberPlaygrounds";
+import { wave4HardwareFinancePlaygrounds } from "@/components/tool/Wave4HardwareFinancePlaygrounds";
 
 interface ToolCardContextValue {
   output: string;
@@ -101,6 +103,8 @@ const ALL_PLAYGROUNDS: Record<string, React.ComponentType<{ tool: Tool }>> = {
   ...wave2HardwareApiPlaygrounds,
   ...wave3CyberPlaygrounds,
   ...wave3HardwareMediaPlaygrounds,
+  ...wave4CyberPlaygrounds,
+  ...wave4HardwareFinancePlaygrounds,
 };
 
 export function ToolPlaygroundRouter({ tool }: { tool: Tool }) {
