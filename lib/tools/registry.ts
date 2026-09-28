@@ -1,4 +1,5 @@
 import type { Tool } from "@/lib/tools/types";
+import { wave2Tools } from "@/lib/tools/wave2Tools";
 
 export const tools: Tool[] = [
   // =========================================================================
@@ -2370,6 +2371,7 @@ export const tools: Tool[] = [
     pillarTitle: "What is Reverse Engineering? Tools, Process & Malware Analysis Guide",
     lastUpdated: "2026-09-28T00:00:00.000Z",
   },
+  ...wave2Tools,
 ];
 
 export function getToolBySlug(slug: string): Tool | undefined {

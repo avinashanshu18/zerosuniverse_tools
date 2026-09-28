@@ -45,7 +45,7 @@ export default function ToolsHubPage() {
           <span className="cat-badge">ZerosUniverse Labs</span>
           <span className="inline-flex items-center gap-1 rounded-xs border border-border bg-background px-2.5 py-0.5 text-xs font-medium text-text-muted">
             <ShieldCheck className="h-3.5 w-3.5 text-accent" />
-            25 Free Browser-Based Utilities &bull; Zero Server Uploads
+            {tools.length} Free Browser-Based Utilities &bull; Zero Server Uploads
           </span>
         </div>
 

@@ -5,6 +5,8 @@ import { Copy, Check, Download, RotateCcw } from "lucide-react";
 import type { Tool } from "@/lib/tools/types";
 import { cybersecurityPlaygrounds } from "@/components/tool/CybersecurityTools";
 import { androidAppsAiTechPlaygrounds } from "@/components/tool/AndroidAppsAiTechTools";
+import { wave2CyberPlaygrounds } from "@/components/tool/Wave2CyberPlaygrounds";
+import { wave2HardwareApiPlaygrounds } from "@/components/tool/Wave2HardwareApiPlaygrounds";
 
 interface ToolCardContextValue {
   output: string;
@@ -93,6 +95,8 @@ export function ToolActions({ tool }: { tool: Tool }) {
 const ALL_PLAYGROUNDS: Record<string, React.ComponentType<{ tool: Tool }>> = {
   ...cybersecurityPlaygrounds,
   ...androidAppsAiTechPlaygrounds,
+  ...wave2CyberPlaygrounds,
+  ...wave2HardwareApiPlaygrounds,
 };
 
 export function ToolPlaygroundRouter({ tool }: { tool: Tool }) {
