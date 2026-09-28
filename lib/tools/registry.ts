@@ -1,5 +1,6 @@
 import type { Tool } from "@/lib/tools/types";
 import { wave2Tools } from "@/lib/tools/wave2Tools";
+import { wave3Tools } from "@/lib/tools/wave3Tools";
 
 export const tools: Tool[] = [
   // =========================================================================
@@ -2372,6 +2373,7 @@ export const tools: Tool[] = [
     lastUpdated: "2026-09-28T00:00:00.000Z",
   },
   ...wave2Tools,
+  ...wave3Tools,
 ];
 
 export function getToolBySlug(slug: string): Tool | undefined {

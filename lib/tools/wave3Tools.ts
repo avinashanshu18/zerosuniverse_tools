@@ -1,0 +1,2882 @@
+import type { Tool } from "@/lib/tools/types";
+
+export const wave3Tools: Tool[] = [
+  // =========================================================================
+  // WAVE 3 — CYBERSECURITY, TECH, ANDROID, APPS & AI (25 Tools: #1 – #25)
+  // =========================================================================
+  {
+    slug: "deepfake-ela-image-forensics-inspector",
+    name: "Image Error Level Analysis (ELA) & Deepfake Forensics Inspector",
+    category: "cybersecurity",
+    h1: "Image Error Level Analysis (ELA) & Deepfake Forensics Inspector (2026)",
+    subhead:
+      "Perform 100% client-side Error Level Analysis (ELA), 8x8 DCT quantization artifact heatmapping, C2PA Content Credentials verification, and synthetic GAN/Diffusion noise residual inspection without uploading images.",
+    primaryKeyword: "error level analysis deepfake detector",
+    secondaryKeywords: [
+      "online ela image forensics tool",
+      "jpeg compression artifact analyzer",
+      "deepfake synthetic image inspector",
+      "c2pa metadata forensics checker",
+    ],
+    metaTitle: "Image Error Level Analysis (ELA) & Deepfake Forensics Inspector (2026)",
+    metaDescription:
+      "Detect image manipulation, splicing, and AI deepfake synthesis in your browser. Run multi-quality Error Level Analysis (ELA), luminance gradient inspection, and EXIF/C2PA forensics privately.",
+    features: [
+      {
+        title: "Multi-Quality JPEG Recompression ELA Engine",
+        description:
+          "Re-encode source images at configurable JPEG quality levels (75%–98%) in HTML5 Canvas and amplify pixel-by-pixel RGB residuals (10x–50x) to expose spliced regions and airbrushed faces.",
+        icon: "Search",
+      },
+      {
+        title: "8x8 DCT Block Grid & Clone-Stamp Inspector",
+        description:
+          "Identify misaligned 8x8 Discrete Cosine Transform macroblocks, high-frequency smoothing boundaries typical of Diffusion/GAN inpainting, and healing-brush clone patterns.",
+        icon: "Cpu",
+      },
+      {
+        title: "C2PA Content Credentials & Software Signature Parser",
+        description:
+          "Scan raw binary JUMBF boxes, XMP packets, and EXIF IFD tags for Adobe Firefly, Midjourney, DALL-E, Stable Diffusion A1111/ComfyUI parameters, and stripped quantization tables.",
+        icon: "Shield",
+      },
+      {
+        title: "Interactive Split-Wipe & False-Color Heatmap Loupe",
+        description:
+          "Toggle between classic RGB ELA residual mode, Jet/Viridis false-color luminance maps, and high-pass Sobel edge filters with a synchronized 4x pixel magnifier loupe.",
+        icon: "Activity",
+      },
+    ],
+    useCases: [
+      {
+        title: "OSINT & Social Media Disinformation Verification",
+        description:
+          "Verify whether leaked screenshots, viral news photographs, or executive portraits have been composite-spliced or altered with generative AI inpainting tools.",
+      },
+      {
+        title: "KYC Identity Document & Invoice Tamper Auditing",
+        description:
+          "Spot pasted text overlays, altered serial numbers, or modified signature blocks on scanned documents where pasted regions exhibit higher error levels than the background.",
+      },
+      {
+        title: "Zero-Upload Confidential Media Forensics",
+        description:
+          "Analyze sensitive legal, journalistic, or incident response evidence locally via WebAssembly/Canvas APIs without transmitting proprietary photos to third-party servers.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Load Your Target Image or Forensic Preset",
+        text: "Drop any JPEG, PNG, or WebP file into the local forensic workspace—or load a built-in synthetic splice demo—without uploading data to external cloud servers.",
+      },
+      {
+        name: "Calibrate Reference JPEG Quality & Error Multiplier",
+        text: "Set the reference recompression quality (default 90%) and adjust the residual gain slider (15x–40x) until baseline compression noise stabilizes across uniform surfaces.",
+      },
+      {
+        name: "Inspect High-Contrast ELA Anomalies & Edge Gradients",
+        text: "Switch between Raw ELA, False-Color Thermal Heatmap, and High-Pass Noise Residual views to spot bright anomalous patches indicating localized re-saving or AI inpainting.",
+      },
+      {
+        name: "Audit Binary Signatures & Export Forensic Report",
+        text: "Review the extracted quantization table variance, C2PA/XMP AI generator flags, and download the side-by-side forensic comparison PNG.",
+      },
+    ],
+    faq: [
+      {
+        question: "How does Error Level Analysis (ELA) detect image manipulation and deepfakes?",
+        answer:
+          "JPEG compression operates on independent 8x8 pixel blocks. Each time an image is saved, every block approaches a local error minimum at that quality rate. If a region is spliced in from another photo or generated by an AI inpainting model, its 8x8 blocks sit at a different compression cycle and light up brighter when re-compressed at 90%–95% quality and multiplied against the original.",
+      },
+      {
+        question: "Why do AI-generated faces and Diffusion inpainting look different under ELA?",
+        answer:
+          "Camera sensors introduce uniform Photo-Response Non-Uniformity (PRNU) and Bayer demosaicing noise across the entire frame. Generative AI models (Stable Diffusion, Flux, GAN face-swappers) synthesize pixels with unnatural high-frequency spectral roll-off or localized mask boundaries that stand out clearly when inspected with ELA and high-pass residual filters.",
+      },
+      {
+        question: "Does ELA work on PNG or WebP images that were converted from JPEG?",
+        answer:
+          "Yes, if the PNG or WebP previously underwent lossy JPEG compression before being saved as lossless PNG, the underlying 8x8 DCT block artifacts remain baked into the pixel grid and will still surface during Error Level Analysis.",
+      },
+      {
+        question: "Why do high-contrast edges naturally appear brighter in an ELA scan?",
+        answer:
+          "High-frequency transitions (such as sharp text, eyelashes, or dark borders against white backgrounds) naturally experience higher quantization error during JPEG compression. Always compare similar textures (e.g., skin vs. skin, or sky vs. sky) rather than mistaking sharp high-contrast edges for tampering.",
+      },
+      {
+        question: "Are my uploaded images sent to a server for deepfake inspection?",
+        answer:
+          "No. Every stage—binary header parsing, HTML5 Canvas JPEG re-encoding, pixel residual math, and heatmap rendering—executes 100% locally inside your browser tab.",
+      },
+    ],
+    related: [
+      "exif-metadata-scrubber-viewer",
+      "steganography-lsb-image-lab",
+      "photo-rgb-histogram-webp-compressor",
+      "zero-upload-pdf-merger-sanitizer",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/best-deepfake-websites-and-apps/",
+    pillarTitle: "Unmasking 10 Best Deepfake Websites and Apps in 2026",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "zero-upload-pdf-merger-sanitizer",
+    name: "Zero-Upload PDF Merger, Page Splitter & Malware Tag Sanitizer",
+    category: "cybersecurity",
+    h1: "Zero-Upload PDF Merger, Page Splitter & Malware Tag Sanitizer (2026)",
+    subhead:
+      "Merge, reorder, and split PDF documents 100% offline in your browser while auditing and neutralizing dangerous PDF object tags (/JavaScript, /OpenAction, /Launch, /AA, /EmbeddedFiles, and XMP tracking metadata).",
+    primaryKeyword: "merge pdf offline malware sanitizer",
+    secondaryKeywords: [
+      "client side pdf merger no upload",
+      "pdf javascript openaction sanitizer",
+      "remove pdf metadata and scripts online",
+      "private browser pdf splitter",
+    ],
+    metaTitle: "Zero-Upload PDF Merger, Splitter & Malware Tag Sanitizer (2026)",
+    metaDescription:
+      "Merge and split PDF files 100% locally in your browser without server uploads. Scan for malicious PDF dictionary tags (/JS, /OpenAction, /Launch, /URI) and strip hidden tracking metadata.",
+    features: [
+      {
+        title: "100% Local In-Memory PDF Merge & Page Splicer",
+        description:
+          "Combine multiple PDF files, extract custom page ranges (e.g., 1-3, 5, 8-12), or reorder pages purely inside browser RAM using ArrayBuffer streams with zero network transmission.",
+        icon: "Lock",
+      },
+      {
+        title: "PDF Object Dictionary Threat Scanner",
+        description:
+          "Inspect raw PDF cross-reference tables and object streams for high-risk tags including /JavaScript, /JS, /OpenAction, /AA (Additional Actions), /Launch, /EmbeddedFiles, /RichMedia, and /SubmitForm.",
+        icon: "Shield",
+      },
+      {
+        title: "Active Content Defanging & Tag Neutralizer",
+        description:
+          "Neutralize executable dictionary keys and strip hidden AcroForm XFA scripts, external /URI phone-home triggers, and producer/author XMP forensic trails before exporting.",
+        icon: "Terminal",
+      },
+      {
+        title: "Structural Entropy & Object Stream Breakdown",
+        description:
+          "Audit total PDF object counts, compressed FlateDecode streams, font embeddings, and suspicious obfuscated hex name tokens (e.g., /#4a#61#76#61#53#63#72#69#70#74).",
+        icon: "Code",
+      },
+    ],
+    useCases: [
+      {
+        title: "Confidential Legal, Tax & Medical PDF Merging",
+        description:
+          "Combine sensitive contracts, bank statements, or HIPAA/GDPR-regulated records in the browser without exposing documents to third-party cloud PDF converters.",
+      },
+      {
+        title: "SOC Analyst Maldoc Triage & Safe Sanitization",
+        description:
+          "Inspect suspicious email attachment PDFs for embedded /Launch cmd.exe triggers, CVE exploit streams, or auto-executing /OpenAction payloads before opening in desktop readers.",
+      },
+      {
+        title: "Anonymous Whistleblower & OSINT Document Cleansing",
+        description:
+          "Purge Author, Creator, Producer, CreationDate, ModDate, and Adobe XMP DocumentID/InstanceID UUIDs that could deanonymize the document creator.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Drop One or More PDF Files into the Local Vault",
+        text: "Select or drag-and-drop PDF files from your device, or load a simulated malicious PDF telemetry sample to test the object scanner.",
+      },
+      {
+        name: "Audit PDF Object Tags & Security Risk Score",
+        text: "Review the real-time structural scan for /JS, /JavaScript, /OpenAction, /Launch, /EmbeddedFiles, and hex-escaped dictionary tokens.",
+      },
+      {
+        name: "Configure Page Ranges, Ordering & Sanitization Rules",
+        text: "Specify custom page ranges to merge or split, and toggle active tag defanging plus Info/XMP metadata scrubbing.",
+      },
+      {
+        name: "Generate & Download the Sanitized PDF Locally",
+        text: "Compile the clean, merged PDF buffer directly in your browser and download the sanitized file with zero server interaction.",
+      },
+    ],
+    faq: [
+      {
+        question: "Why is uploading PDFs to free online merge websites a major security risk?",
+        answer:
+          "Traditional online PDF mergers upload your files to remote cloud servers where confidential contracts, financial statements, or identity documents may be cached, logged, or breached. Our Zero-Upload engine processes every byte inside your browser's local WebAssembly/JavaScript memory sandbox.",
+      },
+      {
+        question: "How can a PDF file execute malware using /OpenAction and /JavaScript tags?",
+        answer:
+          "The PDF specification supports embedded Acrobat JavaScript (/JS and /JavaScript) as well as automatic trigger dictionaries like /OpenAction and /AA (Additional Actions). When a victim opens the file, the PDF reader immediately executes the script or invokes /Launch to spawn system commands or exploit reader vulnerabilities.",
+      },
+      {
+        question: "What is hex-escaped tag obfuscation in malicious PDFs?",
+        answer:
+          "PDF syntax allows name objects to replace characters with two-digit hexadecimal codes preceded by a hash (#). Attackers write /#4A#53 instead of /JS or /#4F#70#65#6E#41#63#74#69#6F#6E instead of /OpenAction to evade naive signature scanners. Our parser normalizes hex-escaped names before auditing.",
+      },
+      {
+        question: "What hidden metadata does a standard PDF file leak?",
+        answer:
+          "Standard PDFs store both a legacy /Info dictionary (Author, Creator, Producer, CreationDate, ModDate) and an XML-based XMP metadata stream containing operating system versions, exact Adobe/Word build numbers, and persistent DocumentID/InstanceID tracking GUIDs.",
+      },
+      {
+        question: "Does sanitizing a PDF alter its visible text or layout?",
+        answer:
+          "No. Defanging executable action dictionaries (/OpenAction, /JS, /Launch) and stripping /Info and /Metadata XMP streams leaves all page content streams, vector graphics, and embedded fonts completely intact.",
+      },
+    ],
+    related: [
+      "exif-metadata-scrubber-viewer",
+      "file-magic-bytes-signature-analyzer",
+      "deepfake-ela-image-forensics-inspector",
+      "malware-deobfuscator-cyberchef-lite",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/amazing-merge-pdf-tools-to-use/",
+    pillarTitle: "8 Amazing Merge PDF Tools to Use in 2026",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "live-bgp-asn-peering-looking-glass",
+    name: "Live BGP ASN Prefix, RPKI ROA & ISP Peering Inspector",
+    category: "cybersecurity",
+    h1: "Live BGP ASN Prefix, RPKI ROA & ISP Peering Looking Glass (2026)",
+    subhead:
+      "Query live Border Gateway Protocol (BGP) announcements, Autonomous System Numbers (ASNs), RPKI Route Origin Authorizations (ROA), and upstream ISP transit paths via RIPEstat and Cloudflare Radar telemetry.",
+    primaryKeyword: "bgp asn looking glass rpki checker",
+    secondaryKeywords: [
+      "bgp prefix hijack detector",
+      "rpki roa validation checker online",
+      "asn upstream peering lookup",
+      "live bgp route table inspector",
+    ],
+    metaTitle: "Live BGP ASN Looking Glass, RPKI ROA & ISP Peering Inspector (2026)",
+    metaDescription:
+      "Inspect live BGP route announcements, ASN prefixes, RPKI ROA cryptographic validity, and upstream transit peers. Diagnose BGP hijacking, route leaks, and IP spoofing defenses.",
+    features: [
+      {
+        title: "Live RIPEstat BGP Prefix & Origin ASN Telemetry",
+        description:
+          "Fetch real-time global routing table state for any IPv4/IPv6 address, CIDR block, or Autonomous System Number (e.g., AS13335, AS15169, AS16509) directly from RIPE RIS collectors.",
+        icon: "Globe",
+      },
+      {
+        title: "Cryptographic RPKI ROA Validation Inspector",
+        description:
+          "Verify whether an announced IP prefix and origin ASN pair is cryptographically Valid, Invalid (ASN mismatch or prefix length violation), or NotFound under global RPKI trust anchors.",
+        icon: "Shield",
+      },
+      {
+        title: "AS-Path Upstream Transit & Peer Topology Graph",
+        description:
+          "Visualize Tier-1 transit providers, IXP peering relationships, AS-PATH prepending depth, and origin AS consistency across multi-homed global route collectors.",
+        icon: "Wifi",
+      },
+      {
+        title: "Sub-Prefix Hijack & BGP Route Leak Simulator",
+        description:
+          "Simulate how a rogue AS announcing a more-specific /24 sub-prefix hijacks traffic from an unguarded /16 supernet—and how RPKI MaxLength + MANRS filters block the hijack.",
+        icon: "Activity",
+      },
+    ],
+    useCases: [
+      {
+        title: "Network Security & BGP Hijack Incident Response",
+        description:
+          "Verify whether enterprise IP blocks are being legitimately originated by your authorized ASN or hijacked via unauthorized sub-prefix announcements.",
+      },
+      {
+        title: "RPKI Route Origin Authorization (ROA) Deployment Auditing",
+        description:
+          "Check MaxLength parameters and ROA validity across ARIN, RIPE, APNIC, LACNIC, and AFRINIC RPKI repositories before enforcing ROV drop policies on border routers.",
+      },
+      {
+        title: "Threat Intelligence & Bulletproof Hosting ASN Profiling",
+        description:
+          "Map the upstream transit providers and neighbor ASNs of suspicious infrastructure during DDoS mitigation, C2 tracking, or IP spoofing investigations.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Enter an IP Address, CIDR Prefix, or ASN",
+        text: "Type any public IPv4/IPv6 address (e.g., 1.1.1.1), CIDR block (1.1.1.0/24), or ASN (AS13335), or click a quick-load Tier-1/Cloudflare/Google preset.",
+      },
+      {
+        name: "Query Live RIPEstat Routing & RPKI Collectors",
+        text: "Run the live query to retrieve announced prefixes, origin ASN holder metadata, geographical registry allocation, and RPKI ROA status.",
+      },
+      {
+        name: "Analyze AS-Path Peers & ROA MaxLength Compliance",
+        text: "Inspect the upstream/downstream ASN neighbor table and confirm that the announced prefix length does not exceed the RPKI ROA MaxLength ceiling.",
+      },
+      {
+        name: "Test Sub-Prefix Hijack Scenarios in the Simulator",
+        text: "Toggle the BGP Hijack Simulator to model longest-prefix-match (LPM) route capture and generate Cisco IOS-XR / FRRouting RPKI ROV config snippets.",
+      },
+    ],
+    faq: [
+      {
+        question: "How does a BGP sub-prefix hijack work?",
+        answer:
+          "BGP routers always prefer the most specific prefix (Longest Prefix Match). If a legitimate organization announces 198.51.100.0/23 and an attacker announces the more-specific 198.51.100.0/24 from a rogue ASN, global routers without RPKI validation will divert traffic for that /24 subnet to the attacker.",
+      },
+      {
+        question: "What is RPKI (Resource Public Key Infrastructure) and ROA?",
+        answer:
+          "RPKI is a cryptographic framework operated by the five Regional Internet Registries (RIRs). A Route Origin Authorization (ROA) is an X.509-signed object stating which Autonomous System Number (ASN) is authorized to originate a specific IP prefix and the maximum sub-prefix length (MaxLength) allowed.",
+      },
+      {
+        question: "Why is setting a loose MaxLength in an RPKI ROA dangerous?",
+        answer:
+          "If you only announce a /16 in BGP but configure your ROA with MaxLength /24, an attacker who spoofs your Origin ASN in the AS_PATH can announce a forged /24 sub-prefix that passes RPKI Origin Validation (ROV). Best practice is to set MaxLength equal to the exact prefix length you actively announce, or deploy ASPA/BGPsec.",
+      },
+      {
+        question: "What is the relationship between IP spoofing and BCP 38 / MANRS?",
+        answer:
+          "IP spoofing occurs when an autonomous system allows packets with forged source IP addresses to exit its network (enabling DNS/NTP amplification DDoS attacks). BCP 38 (RFC 2827) and MANRS require ISPs to enforce Unicast Reverse Path Forwarding (uRPF) and ingress prefix filtering so customers can only send packets from their assigned prefixes.",
+      },
+      {
+        question: "Where does this Looking Glass fetch live BGP data from?",
+        answer:
+          "Your browser queries the public RIPE NCC RIPEstat Data API (stat.ripe.net) directly over HTTPS, aggregating live routing tables from global RIS route collectors.",
+      },
+    ],
+    related: [
+      "ip-asn-geolocation-osint",
+      "cidr-subnet-wildcard-calculator",
+      "dns-spf-dmarc-dkim-auditor",
+      "network-download-mtu-bdp-calculator",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/what-is-ip-spoofing/",
+    pillarTitle: "What is IP Spoofing, BGP Hijacking & RPKI Defense?",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "idn-homograph-punycode-phishing-detector",
+    name: "IDN Punycode (xn--) Homograph Attack & Spoofing Detector",
+    category: "cybersecurity",
+    h1: "IDN Punycode (xn--) Homograph Attack & Spoofing Detector (2026)",
+    subhead:
+      "Convert Internationalized Domain Names (IDN) between Unicode and ASCII Punycode (xn--), detect mixed-script Cyrillic/Greek/Latin confusable characters, and generate lookalike domain defensive watchlists.",
+    primaryKeyword: "idn homograph punycode detector",
+    secondaryKeywords: [
+      "punycode xn-- converter online",
+      "idn homograph attack scanner",
+      "unicode confusable domain checker",
+      "cyrillic lookalike phishing detector",
+    ],
+    metaTitle: "IDN Punycode (xn--) Homograph Attack & Spoofing Detector (2026)",
+    metaDescription:
+      "Detect IDN homograph phishing attacks and convert Unicode domains to ASCII Punycode (xn--). Highlight Cyrillic, Greek, and Latin confusable characters per UTS #39.",
+    features: [
+      {
+        title: "Real-Time RFC 3492 Punycode (xn--) Encoder & Decoder",
+        description:
+          "Translate deceptive Unicode domains (like аррӏе.com) into their canonical DNS ASCII Compatible Encoding (xn--80ak6aa92e.com) and back in real time.",
+        icon: "Globe",
+      },
+      {
+        title: "Unicode UTS #39 Mixed-Script & Skeleton Inspector",
+        description:
+          "Analyze every codepoint's hex value (U+XXXX), Unicode script block (Latin, Cyrillic, Greek, Hebrew, Cherokee), and visual confusable skeleton mapping.",
+        icon: "Search",
+      },
+      {
+        title: "Character-by-Character Visual X-Ray Diff Grid",
+        description:
+          "Highlight deceptive non-ASCII homoglyphs (such as Cyrillic Small Letter A U+0430 vs. Latin U+0061) in high-contrast red cards with side-by-side glyph comparison.",
+        icon: "Shield",
+      },
+      {
+        title: "Defensive Brand Permutator & Phishing Watchlist Generator",
+        description:
+          "Input your brand domain to enumerate possible single-character and whole-script homograph permutations with ready-to-copy Punycode strings for SIEM/DNS sinkhole rules.",
+        icon: "Terminal",
+      },
+    ],
+    useCases: [
+      {
+        title: "SOC Phishing Link & Email Header Triage",
+        description:
+          "Paste suspicious URLs from spear-phishing emails or SMS smishing lures to immediately expose hidden Cyrillic or Greek substitutions masquerading as trusted brands.",
+      },
+      {
+        title: "Brand Protection & Defensive Domain Registration",
+        description:
+          "Generate high-risk Punycode (xn--) lookalike permutations of your corporate domain to monitor Certificate Transparency (CT) logs or block at enterprise DNS resolvers.",
+      },
+      {
+        title: "CEH & Red Team Social Engineering Simulations",
+        description:
+          "Demonstrate how whole-script Cyrillic homographs bypass naive visual inspection and test whether modern browsers (Chrome, Firefox, Safari) trigger Punycode fallback warnings.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Paste a Suspicious Domain, URL, or Punycode String",
+        text: "Enter any Unicode domain, full URL, or xn-- Punycode string—or load famous real-world homograph examples like Cyrillic 'аррӏе.com' or 'mіcrosoft.com'.",
+      },
+      {
+        name: "Inspect the Character Codepoint & Script X-Ray",
+        text: "Examine the character breakdown table showing each glyph's Unicode point (e.g., U+0430 CYRILLIC SMALL LETTER A), script family, and ASCII lookalike target.",
+      },
+      {
+        name: "Verify UTS #39 Mixed-Script & Whole-Script Spoof Risk",
+        text: "Check the calculated risk verdict (Safe ASCII, Legitimate IDN, Mixed-Script Confusable, or Whole-Script Homograph Attack) and browser address bar behavior.",
+      },
+      {
+        name: "Generate Defensive Homograph Permutations",
+        text: "Switch to the Brand Permutator tab to generate confusable Punycode variants of your domain for DNS blocklists and SIEM threat hunting.",
+      },
+    ],
+    faq: [
+      {
+        question: "What is an IDN homograph attack?",
+        answer:
+          "An Internationalized Domain Name (IDN) homograph attack is a social engineering technique where an attacker registers a domain using non-Latin Unicode characters (such as Cyrillic 'а' U+0430, 'е' U+0435, 'о' U+043E, or Greek 'ο' U+03BF) that look pixel-identical to standard ASCII Latin letters.",
+      },
+      {
+        question: "How does Punycode (xn--) encoding work in DNS?",
+        answer:
+          "Because the core Domain Name System (DNS) historically only supports ASCII characters (A-Z, 0-9, and hyphens), RFC 3492 defines Punycode (Bootstring encoding). Any domain label containing non-ASCII characters is prefixed with 'xn--' followed by the ASCII characters and encoded delta offsets of the Unicode codepoints.",
+      },
+      {
+        question: "Why did the famous 'аррӏе.com' (xn--80ak6aa92e.com) attack fool web browsers?",
+        answer:
+          "Early browser defenses only blocked 'mixed-script' labels (combining Latin and Cyrillic inside the same word). Security researcher Xudong Zheng demonstrated that by writing 'apple' using 100% Cyrillic characters (а-р-р-ӏ-е), browsers treated it as a legitimate single-script Cyrillic word and rendered 'apple.com' in the URL bar.",
+      },
+      {
+        question: "How does Unicode Technical Standard #39 (UTS #39) detect confusables?",
+        answer:
+          "UTS #39 defines a 'skeleton' algorithm: it normalizes strings via NFD decomposition, maps every character through the Unicode confusables table to a canonical prototype glyph, and re-applies NFD. If two distinct strings produce the exact same skeleton, they are visually confusable.",
+      },
+      {
+        question: "How can organizations defend against Punycode phishing?",
+        answer:
+          "Organizations should monitor Certificate Transparency (CT) logs for 'xn--' certificates matching their brand skeleton, block newly registered IDN lookalikes at the Secure Email Gateway (SEG) and DNS resolver level, and adopt FIDO2/WebAuthn passkeys which bind cryptographically to the exact ASCII RP ID (never falling for visual spoofing).",
+      },
+    ],
+    related: [
+      "phishing-url-homograph-analyzer",
+      "zero-width-unicode-canary-trap-studio",
+      "email-header-forensics-analyzer",
+      "dns-spf-dmarc-dkim-auditor",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/ceh-v12-module-09-social-engineering/",
+    pillarTitle: "CEH Module 09: Social Engineering & Phishing Techniques",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "zero-width-unicode-canary-trap-studio",
+    name: "Zero-Width Unicode Canary Trap & Invisible Watermark Studio",
+    category: "cybersecurity",
+    h1: "Zero-Width Unicode Canary Trap & Invisible Watermark Studio (2026)",
+    subhead:
+      "Embed invisible zero-width Unicode watermarks (U+200B, U+200C, U+200D, U+FEFF) into confidential messages or documents to trace data leaks—or scan and scrub hidden zero-width steganography.",
+    primaryKeyword: "zero width character steganography canary trap",
+    secondaryKeywords: [
+      "invisible unicode watermark generator",
+      "zero width space detector and remover",
+      "canary trap leak attribution tool",
+      "whatsapp invisible text steganography",
+    ],
+    metaTitle: "Zero-Width Unicode Canary Trap & Invisible Watermark Studio (2026)",
+    metaDescription:
+      "Create invisible zero-width Unicode canary traps to identify document and chat leakers, or detect and strip hidden U+200B/U+200C/U+200D steganography in your browser.",
+    features: [
+      {
+        title: "Binary-to-Zero-Width Steganography Encoder",
+        description:
+          "Encode any secret recipient ID, timestamp, or canary tag into invisible zero-width codepoints (U+200B Zero-Width Space, U+200C ZWNJ, U+200D ZWJ, U+2060 Word Joiner) woven inside cover text.",
+        icon: "Lock",
+      },
+      {
+        title: "Multi-Recipient Leak Attribution Batch Generator",
+        description:
+          "Input a list of recipient names or department IDs to automatically generate uniquely fingerprinted copies of your confidential memo or WhatsApp/Slack announcement.",
+        icon: "Key",
+      },
+      {
+        title: "Forensic Zero-Width Scanner & Decoder",
+        description:
+          "Paste any suspected leaked text from websites, chats, or emails to reveal every invisible Unicode character, decode the embedded canary payload, and pinpoint the exact source.",
+        icon: "Search",
+      },
+      {
+        title: "One-Click Invisible Character Sanitizer",
+        description:
+          "Strip all zero-width spaces, bidirectional override characters (U+202E RLO), homoglyph control marks, and AI watermark artifacts to produce clean plain-text output.",
+        icon: "Shield",
+      },
+    ],
+    useCases: [
+      {
+        title: "Executive & Boardroom Canary Trap Leak Detection",
+        description:
+          "Distribute uniquely watermarked copies of sensitive M&A announcements or press embargoes so any copy-pasted leak immediately reveals the recipient ID.",
+      },
+      {
+        title: "WhatsApp, Telegram & Discord Chat Forensics",
+        description:
+          "Inspect forwarded messages or suspicious group chat invitations for hidden zero-width payloads, invisible tracking tags, or Right-to-Left Override (RTLO) filename spoofing.",
+      },
+      {
+        title: "Journalist & Whistleblower Source Protection",
+        description:
+          "Scrub leaked plain-text excerpts before publication to ensure invisible zero-width canary markers cannot deanonymize a confidential source.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Enter Cover Text & Secret Canary Identifier",
+        text: "Type your visible message (cover text) and the secret canary tag (e.g., 'EXEC-BOARD-04' or a list of recipients for batch generation).",
+      },
+      {
+        name: "Select Injection Position & Encoding Alphabet",
+        text: "Choose where to weave the invisible zero-width bitstream (after the first word, distributed across word boundaries, or mid-sentence) and copy the watermarked text.",
+      },
+      {
+        name: "Switch to Forensic Decoder to Audit Leaked Text",
+        text: "Paste any text snippet into the Decoder & Sanitizer tab to highlight invisible codepoints (U+200B, U+200C, U+200D, U+FEFF) and reconstruct the hidden canary string.",
+      },
+      {
+        name: "Sanitize & Strip All Invisible Control Characters",
+        text: "Click 'Scrub Zero-Width Characters' to purge all non-printing steganographic and bidirectional control characters before sharing text publicly.",
+      },
+    ],
+    faq: [
+      {
+        question: "What is a Canary Trap (Barium Meal test) in cybersecurity?",
+        answer:
+          "Popularized in intelligence tradecraft, a canary trap involves giving each recipient of a sensitive document a slightly different version. By using invisible zero-width Unicode characters instead of visible wording changes, every recipient sees identical text, but copy-pasting the text preserves the hidden binary ID.",
+      },
+      {
+        question: "How do Zero-Width Unicode characters hide data inside normal text?",
+        answer:
+          "Unicode defines several characters with zero visual width required for typography in complex scripts: Zero-Width Space (U+200B), Zero-Width Non-Joiner (U+200C), Zero-Width Joiner (U+200D), and Zero-Width No-Break Space (U+FEFF). By mapping binary '0' to U+200B, binary '1' to U+200C, and byte boundaries to U+200D, arbitrary UTF-8 strings can be hidden between two visible letters.",
+      },
+      {
+        question: "Do zero-width watermarks survive copy-pasting into WhatsApp, Slack, and Email?",
+        answer:
+          "Yes. Modern browsers, messaging apps (WhatsApp, Telegram, Signal, Slack, Discord), and email clients preserve standard Unicode codepoints (U+200B, U+200C, U+200D) when a user highlights and copy-pastes text.",
+      },
+      {
+        question: "What is the Right-to-Left Override (U+202E) attack that this scanner also detects?",
+        answer:
+          "U+202E (RIGHT-TO-LEFT OVERRIDE) forces all subsequent characters to render in reverse order. Attackers use it in messaging apps to disguise 'invoice_fdp.exe' as 'invoice_exe.pdf'. Our forensic scanner flags U+202E and bidirectional control characters alongside zero-width steganography.",
+      },
+      {
+        question: "How can a journalist or defender defeat a zero-width canary trap?",
+        answer:
+          "Running any quoted text through our Zero-Width Sanitizer (which strips U+200B–U+200F, U+202A–U+202E, U+2060–U+206F, and U+FEFF) or re-typing the passage manually completely removes invisible character watermarks.",
+      },
+    ],
+    related: [
+      "steganography-lsb-image-lab",
+      "idn-homograph-punycode-phishing-detector",
+      "malware-deobfuscator-cyberchef-lite",
+      "osint-doxing-exposure-self-audit-simulator",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/tips-to-secure-your-whatsapp-account/",
+    pillarTitle: "10 Simple Tips to Secure Your WhatsApp Account & Chats",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "modbus-mqtt-scada-iot-frame-builder",
+    name: "SCADA Modbus TCP/RTU Frame Builder & IoT MQTT Security Auditor",
+    category: "cybersecurity",
+    h1: "SCADA Modbus TCP/RTU Frame Builder, CRC-16 Calculator & MQTT Auditor (2026)",
+    subhead:
+      "Construct and decode Industrial Control System (ICS) Modbus TCP MBAP and Modbus RTU frames with live CRC-16/MODBUS calculation, function code risk analysis, and IoT MQTT wildcard ACL security auditing.",
+    primaryKeyword: "modbus frame builder crc16 calculator",
+    secondaryKeywords: [
+      "modbus tcp rtu packet decoder",
+      "crc16 modbus hex calculator online",
+      "scada ics security function code analyzer",
+      "mqtt topic wildcard acl auditor",
+    ],
+    metaTitle: "SCADA Modbus TCP/RTU Frame Builder, CRC-16 & MQTT Security Auditor (2026)",
+    metaDescription:
+      "Build and decode Modbus TCP (MBAP) and Modbus RTU hex frames with live CRC-16/MODBUS checksums. Audit ICS PLC function codes and IoT MQTT topic wildcard vulnerabilities.",
+    features: [
+      {
+        title: "Interactive Modbus TCP (MBAP) & RTU Hex Frame Builder",
+        description:
+          "Configure Transaction ID, Unit/Slave ID, Function Code (0x01–0x10, 0x2B), Starting Register Address, and Payload Values to synthesize exact wire-ready hex frames.",
+        icon: "Cpu",
+      },
+      {
+        title: "Bit-Exact CRC-16/MODBUS (0xA001) Little-Endian Engine",
+        description:
+          "Compute polynomial 0x8005 (reflected 0xA001, init 0xFFFF) CRC-16 checksums with automatic Low-Byte / High-Byte endianness swapping and live frame verification.",
+        icon: "Code",
+      },
+      {
+        title: "ICS/SCADA Function Code Risk & OT Firewall Rule Generator",
+        description:
+          "Classify read-only telemetry vs. high-risk state-mutating PLC commands (0x05 Write Single Coil, 0x06 Write Register, 0x10 Write Multiple) and generate Suricata/Zeek OT rules.",
+        icon: "Shield",
+      },
+      {
+        title: "IoT MQTT Topic Wildcard (# / +) & Broker ACL Auditor",
+        description:
+          "Test MQTT topic trees against subscriber patterns (+ single-level, # multi-level, $SYS broker internals) to detect unauthorized telemetry enumeration and command injection.",
+        icon: "Wifi",
+      },
+    ],
+    useCases: [
+      {
+        title: "OT/ICS Penetration Testing & PLC Protocol Debugging",
+        description:
+          "Craft valid Modbus TCP (Port 502) and serial RTU frames when auditing programmable logic controllers (PLCs), RTUs, and SCADA HMIs in lab or industrial environments.",
+      },
+      {
+        title: "Industrial IDS/IPS & Deep Packet Inspection Rule Authoring",
+        description:
+          "Verify byte offsets inside MBAP headers so OT firewalls block unauthorized Function Code 0x05/0x06/0x0F/0x10 write operations while permitting read-only Historian polling.",
+      },
+      {
+        title: "IIoT MQTT Broker Hardening & Topic Isolation",
+        description:
+          "Audit Mosquitto, EMQX, or AWS IoT Core topic ACL policies to ensure anonymous clients or compromised sensors cannot subscribe to root '#' or '$SYS/#' topics.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Select Protocol Mode (Modbus RTU, Modbus TCP, or MQTT Auditor)",
+        text: "Switch between Serial RTU (with CRC-16), Ethernet TCP/IP (Port 502 MBAP header), Raw Hex Frame Decoder, or the IIoT MQTT Topic ACL simulator.",
+      },
+      {
+        name: "Configure Slave Unit ID, Function Code & Register Offsets",
+        text: "Pick a standard ICS Function Code (e.g., 0x03 Read Holding Registers or 0x06 Write Single Register), enter the 16-bit start address (0-based PDU vs. 40001 PLC notation), and set register count/value.",
+      },
+      {
+        name: "Inspect Color-Coded PDU/ADU Bytes & Live CRC-16",
+        text: "View the byte-by-byte breakdown showing Transaction ID, Protocol ID (0x0000), Length, Unit ID, Function Code, Data Payload, and Little-Endian CRC-16.",
+      },
+      {
+        name: "Audit OT Security Risk & Copy Suricata / Python PyModbus Code",
+        text: "Review the ICS MITRE ATT&CK technique mapping (e.g., T0855 Unauthorized Command Message) and copy ready-to-run Python socket or Suricata DPI rules.",
+      },
+    ],
+    faq: [
+      {
+        question: "How is the CRC-16/MODBUS checksum calculated and why are the bytes reversed?",
+        answer:
+          "Modbus RTU uses a 16-bit Cyclic Redundancy Check initialized to 0xFFFF with the reflected polynomial 0xA001 (normal 0x8005). Per the Modbus over Serial Line specification, the resulting 16-bit CRC is appended to the frame in Little-Endian order (Low Byte first, High Byte second), whereas all data addresses and register values inside the PDU are Big-Endian.",
+      },
+      {
+        question: "What is the difference between Modbus TCP and Modbus RTU?",
+        answer:
+          "Modbus RTU is a binary serial protocol (RS-485/RS-232) that wraps the Protocol Data Unit (PDU) with a 1-byte Slave ID prefix and a 2-byte CRC-16 suffix. Modbus TCP (Port 502) drops the CRC-16 (relying on TCP/IP checksums) and prepends a 7-byte MBAP (Modbus Application Protocol) header containing Transaction ID (2B), Protocol ID (2B = 0x0000), Length (2B), and Unit ID (1B).",
+      },
+      {
+        question: "Why does PLC register 40001 map to PDU hex address 0x0000?",
+        answer:
+          "Traditional Modicon convention uses 1-based human numbering where prefix '4' indicates Holding Registers (40001–49999) and prefix '3' indicates Input Registers (30001–39999). On the wire inside the Modbus PDU, the prefix is implied by the Function Code (0x03 vs 0x04) and the register offset is 0-indexed—so Holding Register 40001 is transmitted as 0x0000.",
+      },
+      {
+        question: "Why is Modbus inherently insecure by design?",
+        answer:
+          "Designed in 1979 for isolated serial buses, standard Modbus has zero authentication, zero encryption, and no session signing. Any host with network reachability to TCP port 502 can issue Function Code 0x05 (Write Single Coil) or 0x10 (Write Multiple Registers) to trip breakers, alter setpoints, or halt industrial processes unless protected by OT firewalls or Modbus/TLS.",
+      },
+      {
+        question: "Why is subscribing to '#' or '$SYS/#' dangerous in IoT MQTT brokers?",
+        answer:
+          "In MQTT, the multi-level wildcard '#' matches every topic hierarchy on the broker. If a broker permits unauthenticated connects or overly broad ACLs, an attacker subscribing to '#' and '$SYS/#' can harvest all sensor payloads, firmware URLs, client IDs, and command channels across the facility.",
+      },
+    ],
+    related: [
+      "snort-suricata-ids-rule-simulator",
+      "nmap-command-builder",
+      "cve-cvss-v4-score-calculator",
+      "network-download-mtu-bdp-calculator",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/scada-supervisory-control-and/",
+    pillarTitle: "What Is SCADA Attacks & Industrial ICS Security?",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "tor-onion-v3-opsec-torrc-generator",
+    name: "Tor .onion v3 Checksum Validator & Bridge torrc Generator",
+    category: "cybersecurity",
+    h1: "Tor .onion v3 Checksum Validator & Hardened Bridge torrc Generator (2026)",
+    subhead:
+      "Cryptographically validate 56-character Tor v3 .onion addresses by decoding Base32 Ed25519 public keys and verifying SHA3-256 checksums, plus generate hardened obfs4/Snowflake/WebTunnel torrc configurations.",
+    primaryKeyword: "tor onion v3 validator torrc generator",
+    secondaryKeywords: [
+      "tor v3 onion address checksum validator",
+      "ed25519 onion public key decoder",
+      "hardened torrc configuration generator",
+      "obfs4 snowflake bridge torrc builder",
+    ],
+    metaTitle: "Tor .onion v3 Checksum Validator & Hardened Bridge torrc Generator (2026)",
+    metaDescription:
+      "Decode and cryptographically validate 56-character Tor v3 .onion addresses (Ed25519 pubkey + SHA3-256 checksum + version byte). Generate hardened torrc configs for obfs4, Snowflake, and Onion Services.",
+    features: [
+      {
+        title: "Cryptographic Tor v3 .onion Base32 & SHA3-256 Validator",
+        description:
+          "Decode any 56-character v3 .onion address into its raw 35-byte structure (32-byte Ed25519 public key + 2-byte SHA3-256('.onion checksum' || PUBKEY || VERSION) + 0x03 version byte) to detect typos or phishing clones.",
+        icon: "Shield",
+      },
+      {
+        title: "Deprecated v2 (16-char) vs. v3 (56-char) Security Analyzer",
+        description:
+          "Instantly flag obsolete 16-character RSA-1024/SHA-1 v2 addresses, invalid Base32 characters (0, 1, 8, 9), and corrupted checksum bytes before connecting.",
+        icon: "Search",
+      },
+      {
+        title: "Censorship-Circumvention Pluggable Transport torrc Builder",
+        description:
+          "Generate copy-ready client torrc files with obfs4, Snowflake (WebRTC domain fronting), and WebTunnel bridges, ClientUseIPv6, FascistFirewall, and strict ExitNodes/ExcludeExitNodes.",
+        icon: "Terminal",
+      },
+      {
+        title: "Hardened Hidden Service & Relay Operator Config Studio",
+        description:
+          "Build production Onion Service configurations featuring v3 Client Authorization (descriptor:x25519:), HiddenServiceSingleHopMode warnings, Sandbox 1, and Vanguards-lite circuit guards.",
+        icon: "Lock",
+      },
+    ],
+    useCases: [
+      {
+        title: "Verifying Authentic Whistleblower & SecureDrop Onion URLs",
+        description:
+          "Confirm that a 56-character .onion address has a mathematically valid SHA3-256 checksum and extract its canonical 32-byte Ed25519 identity key before submitting sensitive files.",
+      },
+      {
+        title: "Bypassing DPI Firewalls with Pluggable Transports",
+        description:
+          "Generate syntax-verified torrc configurations using obfs4, Snowflake, or WebTunnel bridges for journalists and researchers operating in censored network environments.",
+      },
+      {
+        title: "Deploying Authenticated Private Tor v3 Onion Services",
+        description:
+          "Configure stealth v3 Hidden Services with Unix domain socket forwarding, localhost binding to prevent clearnet leaks, and x25519 client authorization keys.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Paste a .onion Address or Select a Known Verified Preset",
+        text: "Enter any .onion URL (or load presets like DuckDuckGo, Proton, New York Times SecureDrop, or the Tor Project) to inspect its cryptographic structure.",
+      },
+      {
+        name: "Inspect the 35-Byte Base32 Breakdown & SHA3-256 Checksum",
+        text: "Verify the 32-byte Ed25519 public key in hex, the 2-byte expected vs. actual SHA3-256 checksum, and the 0x03 protocol version byte.",
+      },
+      {
+        name: "Configure Your Role in the Hardened torrc Builder",
+        text: "Select Client (Privacy/Censorship Evasion), Authenticated v3 Onion Service (Server), or Guard/Middle Relay and toggle OPSEC hardening flags.",
+      },
+      {
+        name: "Copy Your torrc File & OPSEC Verification Checklist",
+        text: "Copy the generated `/etc/tor/torrc` configuration along with systemd hardening and DNS leak prevention checks.",
+      },
+    ],
+    faq: [
+      {
+        question: "How is a 56-character Tor v3 .onion address mathematically constructed?",
+        answer:
+          "Per Tor rend-spec-v3, a v3 onion address is the lowercase Base32 encoding of 35 bytes (280 bits = 56 Base32 characters): a 32-byte Ed25519 public key, followed by a 2-byte checksum calculated as the first two bytes of SHA3-256('.onion checksum' || PUBKEY || 0x03), followed by a 1-byte version field (0x03).",
+      },
+      {
+        question: "Why can't digits '0', '1', '8', or '9' appear in a valid .onion address?",
+        answer:
+          "Tor onion addresses use standard RFC 4648 Base32 encoding, which strictly uses the 32-character alphabet 'a–z' and digits '2–7'. Any .onion link containing '0', '1', '8', or '9' is syntactically invalid or a fake clearnet phishing proxy (such as .onion.ly or .onion.to).",
+      },
+      {
+        question: "Why should you never access .onion sites through clearnet Tor2Web proxies (.onion.ly / .onion.ws)?",
+        answer:
+          "Clearnet Tor2Web gateways terminate your TLS connection on their proxy server, stripping Tor's end-to-end Ed25519 rendezvous encryption. The proxy operator can read all traffic, inject credential-harvesting JavaScript, and log your real clearnet IP address.",
+      },
+      {
+        question: "What is the difference between obfs4, Snowflake, and WebTunnel bridges?",
+        answer:
+          "obfs4 scrambles Tor traffic so Deep Packet Inspection (DPI) sees random high-entropy bytes with randomized packet timing. Snowflake routes traffic through ephemeral WebRTC peer-to-peer browser proxies using domain fronting. WebTunnel disguises Tor traffic inside standard HTTPS WebSocket upgrade connections that coexist on a real web server.",
+      },
+      {
+        question: "How does Tor v3 Client Authorization (descriptor:x25519) protect private services?",
+        answer:
+          "With v3 Client Authorization, the Onion Service encrypts its descriptor on the HSDir ring using an x25519 public key. Even if an attacker discovers the 56-character .onion address, they cannot decrypt the introduction points or establish a rendezvous circuit without the matching `.auth_private` x25519 private key.",
+      },
+    ],
+    related: [
+      "wireguard-config-generator",
+      "webrtc-stun-ip-leak-tester",
+      "browser-fingerprint-entropy-scanner",
+      "dns-spf-dmarc-dkim-auditor",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/tor-browse-web-anonymously/",
+    pillarTitle: "What Is Tor: Browse the Dark Web Anonymously & Safely",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "shamir-secret-sharing-bip39-splitter",
+    name: "Shamir's Secret Sharing (k-of-n) & BIP-39 Vault Splitter",
+    category: "cybersecurity",
+    h1: "Shamir's Secret Sharing (k-of-n) & BIP-39 Vault Splitter (2026)",
+    subhead:
+      "Split any BIP-39 cryptocurrency seed phrase, master password, or private key into n cryptographic shares over GF(2^8) where any k shares reconstruct the secret—and k−1 shares reveal zero information.",
+    primaryKeyword: "shamir secret sharing calculator online",
+    secondaryKeywords: [
+      "k of n threshold secret splitter",
+      "bip39 seed phrase shamir backup",
+      "gf 256 lagrange interpolation calculator",
+      "offline shamir secret combiner",
+    ],
+    metaTitle: "Shamir's Secret Sharing (k-of-n) & BIP-39 Seed Splitter (2026)",
+    metaDescription:
+      "Split BIP-39 seed phrases, private keys, and vault master passwords into k-of-n cryptographic shares in your browser using GF(2^8) polynomial interpolation. 100% client-side.",
+    features: [
+      {
+        title: "Information-Theoretic GF(2^8) Polynomial Splitter",
+        description:
+          "Construct degree-(k−1) random polynomials over the Rijndael Galois Field GF(256) using Web Crypto API CSPRNG (`crypto.getRandomValues`) for every secret byte.",
+        icon: "Key",
+      },
+      {
+        title: "Lagrange Basis Polynomial Secret Combiner",
+        description:
+          "Paste any k valid shares (out of n total) in any order to mathematically reconstruct the constant term f(0) via Galois Field Lagrange interpolation.",
+        icon: "Cpu",
+      },
+      {
+        title: "Tamper-Evident Share Checksum & Threshold Verification",
+        description:
+          "Every generated share includes a structured header (`SSS-v1-k-idx-checksum-hex`) so corrupted shares or mismatched thresholds are flagged immediately during recovery.",
+        icon: "Shield",
+      },
+      {
+        title: "Why XOR / Naive Seed Splitting Fails Visual Explainer",
+        description:
+          "Compare true Shamir threshold cryptography against naive 12/24-word paper splitting, demonstrating why splitting a 24-word seed into halves leaks 128 bits of entropy.",
+        icon: "Lock",
+      },
+    ],
+    useCases: [
+      {
+        title: "Multi-Location Hardware Wallet & BIP-39 Seed Backup",
+        description:
+          "Split a 24-word cold-storage mnemonic into a 3-of-5 quorum distributed across bank safe deposit boxes, home safes, and estate attorneys without single-point-of-failure risk.",
+      },
+      {
+        title: "Enterprise Root CA & Vault Master Unseal Key Quorum",
+        description:
+          "Divide root encryption keys or emergency break-glass passwords among security officers so no individual executive or compromised vault can unilaterally decrypt assets.",
+      },
+      {
+        title: "Digital Estate Planning & Dead-Man's-Switch Inheritance",
+        description:
+          "Configure a 2-of-3 threshold where your spouse, estate lawyer, and off-site vault each hold one share—requiring any two parties to collaborate for recovery.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Enter Your Secret Phrase or Load a Test BIP-39 Seed",
+        text: "Input any BIP-39 mnemonic, SSH/PGP key fragment, or master passphrase (for maximum OPSEC with live funds, disconnect from the internet before typing).",
+      },
+      {
+        name: "Set Total Shares (n) & Reconstruction Threshold (k)",
+        text: "Choose how many total shares to generate (2 to 10) and the minimum threshold k required to recover the secret (e.g., 3-of-5).",
+      },
+      {
+        name: "Generate Cryptographic GF(256) Shares",
+        text: "Click 'Split Secret into Shares' to evaluate degree-(k−1) random polynomials over GF(2^8) and copy each numbered share to separate offline media.",
+      },
+      {
+        name: "Test Reconstruction in the Lagrange Combiner Tab",
+        text: "Paste any k generated shares into the Combiner tab to verify exact byte-for-byte recovery, and test with k−1 shares to see how sub-threshold attempts fail.",
+      },
+    ],
+    faq: [
+      {
+        question: "How does Shamir's Secret Sharing achieve information-theoretic security?",
+        answer:
+          "Published by Adi Shamir in 1979, the scheme relies on the theorem that it takes k points to uniquely define a polynomial of degree k−1. The secret byte S is placed as the y-intercept a_0 = f(0), and k−1 random coefficients are drawn from a CSPRNG. With only k−1 points, every possible byte value in GF(256) corresponds to an equally valid degree-(k−1) polynomial—meaning an attacker with unlimited computing power learns 0 bits about the secret.",
+      },
+      {
+        question: "Why shouldn't I just cut my 24-word BIP-39 seed phrase into three 8-word pieces?",
+        answer:
+          "If you split a 24-word seed into three 16-word overlapping cards (Words 1–16, Words 9–24, Words 1–8 + 17–24), anyone who steals a single card immediately knows 16 of your 24 words (176 bits of entropy), reducing the remaining 8 words to only 88 bits—and if it were a 12-word seed, knowing 8 words leaves only 44 bits, which GPU clusters can brute-force in hours. Shamir's Secret Sharing reveals 0 bits until the exact threshold k is met.",
+      },
+      {
+        question: "Why is arithmetic performed over Galois Field GF(2^8) instead of normal integers?",
+        answer:
+          "In standard integer arithmetic, polynomial values grow larger as x increases, leaking statistical bounds on the coefficients and expanding share byte lengths. In the finite field GF(2^8) (modulo the irreducible polynomial x^8 + x^4 + x^3 + x + 1, hex 0x11B), addition is bitwise XOR and every share has the exact same byte length as the original secret with uniform distribution.",
+      },
+      {
+        question: "What is the difference between Shamir's Secret Sharing (SLIP-0039) and On-Chain Multisig?",
+        answer:
+          "Shamir's Secret Sharing (and Trezor's SLIP-0039 standard) splits a single master secret at rest; during signing, k shares must be brought together to reconstruct the key. On-chain Multisig (or MPC/Frost) uses independent private keys that sign transactions separately without ever combining into a single private key in memory.",
+      },
+      {
+        question: "Is it safe to test this tool in my browser?",
+        answer:
+          "All GF(2^8) log/exp table generation, CSPRNG polynomial sampling, and Lagrange interpolation run 100% locally in your browser. You can switch your device to Airplane Mode before entering any real secret.",
+      },
+    ],
+    related: [
+      "cryptographic-hash-hmac-generator",
+      "password-entropy-crack-time-calculator",
+      "aes-gcm-rsa-hybrid-encryption-playground",
+      "evil-maid-luks-bitlocker-boot-simulator",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/understanding-defiways-cryptocurrency-wallets/",
+    pillarTitle: "Understanding Cryptocurrency Wallets & Seed Phrase Security",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "worm-epidemic-botnet-propagation-simulator",
+    name: "Computer Worm (SIR Model) & Botnet C2 Jitter Simulator",
+    category: "cybersecurity",
+    h1: "Computer Worm (SIR Epidemic Model) & Botnet C2 Jitter Simulator (2026)",
+    subhead:
+      "Simulate network worm propagation dynamics (Morris, WannaCry SMBv1, SQL Slammer) using the differential SIR epidemiological model alongside C2 beacon jitter entropy and sinkhole containment.",
+    primaryKeyword: "computer worm propagation simulator",
+    secondaryKeywords: [
+      "sir epidemic model malware propagation",
+      "botnet c2 beacon jitter calculator",
+      "basic reproduction number r0 cybersecurity",
+      "wannacry slammer worm speed simulator",
+    ],
+    metaTitle: "Computer Worm (SIR Model) & Botnet C2 Jitter Simulator (2026)",
+    metaDescription:
+      "Model computer worm outbreaks with the SIR epidemiological differential equations (Susceptible, Infectious, Patched). Simulate R0, immunization thresholds, and Botnet C2 beacon jitter.",
+    features: [
+      {
+        title: "Interactive SIR Epidemiological Differential Solver",
+        description:
+          "Simulate Susceptible S(t), Infectious I(t), and Patched/Quarantined R(t) host populations across 100 time steps with live SVG epidemic curves and peak infection telemetry.",
+        icon: "Activity",
+      },
+      {
+        title: "Historical Outbreak Presets (Slammer, WannaCry, Conficker, Mirai)",
+        description:
+          "Load real-world propagation profiles for SQL Slammer (UDP 1434 random scanning), WannaCry (EternalBlue SMBv1 + Killswitch), Mirai IoT Telnet, and Local Subnet worms.",
+        icon: "Cpu",
+      },
+      {
+        title: "Basic Reproduction Number (R0) & Herd Immunity Calculator",
+        description:
+          "Calculate exact cyber R0 = β / γ, critical pre-outbreak patch coverage threshold (1 − 1/R0), doubling time, and network saturation bandwidth impact.",
+        icon: "Shield",
+      },
+      {
+        title: "Botnet C2 Beacon Jitter & FFT Periodicity Detector",
+        description:
+          "Model Command & Control callback sleep intervals with configurable jitter percentage (0%–50%) to see how NDR/SIEM periodicity algorithms detect fixed-interval beacons.",
+        icon: "Wifi",
+      },
+    ],
+    useCases: [
+      {
+        title: "SOC Incident Response & Network Segmentation Modeling",
+        description:
+          "Demonstrate how micro-segmentation (reducing contact rate β) and automated EDR isolation (increasing removal rate γ) collapse R0 below 1.0 to halt lateral movement.",
+      },
+      {
+        title: "Threat Hunting for C2 Beaconing in Firewall & Proxy Logs",
+        description:
+          "Understand how Cobalt Strike, Sliver, and botnet implants apply uniform or Gaussian sleep jitter to evade inter-arrival time standard deviation (σ/μ) anomaly detection.",
+      },
+      {
+        title: "Cybersecurity Education & Malware Epidemiology Labs",
+        description:
+          "Visualize why UDP stateless scanning worms (SQL Slammer) double every 8.5 seconds compared to TCP three-way handshake worms (WannaCry, Conficker).",
+      },
+    ],
+    howTo: [
+      {
+        name: "Select a Famous Worm Preset or Custom Network Topology",
+        text: "Pick SQL Slammer (2003), WannaCry (2017), Mirai IoT (2016), or customize Total Vulnerable Hosts (N), Scan/Infection Rate (β), and Patch/Isolation Rate (γ).",
+      },
+      {
+        name: "Adjust Pre-Outbreak Patching & Killswitch Containment",
+        text: "Slide the Initial Patch Coverage (%) and Emergency Sinkhole/Segmentation response time to observe how the S(t), I(t), and R(t) curves shift in real time.",
+      },
+      {
+        name: "Inspect R0, Peak Concurrent Infections & Time-to-Saturation",
+        text: "Review the calculated Basic Reproduction Number (R0), critical vaccination threshold, and maximum concurrent infected hosts.",
+      },
+      {
+        name: "Simulate Botnet C2 Sleep Jitter & NDR Detection Score",
+        text: "Configure C2 base callback interval (e.g., 60s) and jitter percentage (0%–50%) to view the inter-arrival histogram and RITA/Zeek periodicity detection score.",
+      },
+    ],
+    faq: [
+      {
+        question: "How does the epidemiological SIR model apply to computer worms?",
+        answer:
+          "Originally developed by Kermack and McKendrick for biological epidemics, the SIR model divides a network of N hosts into three compartments: Susceptible (S: unpatched and reachable), Infectious (I: actively scanning and exploiting peers at rate β), and Removed/Recovered (R: patched, quarantined by EDR, or offline at rate γ). The coupled differential equations dS/dt = −βSI/N, dI/dt = βSI/N − γI, and dR/dt = γI accurately predict worm velocity.",
+      },
+      {
+        question: "What does the Basic Reproduction Number (R0) mean in network security?",
+        answer:
+          "In cybersecurity, R0 = (β / γ) × (1 − p) represents the average number of vulnerable machines a single infected host compromises before being isolated or patched. If R0 > 1, a worm triggers an exponential network-wide outbreak; if micro-segmentation and automated EDR containment push R0 < 1, the outbreak dies out organically.",
+      },
+      {
+        question: "Why did the 2003 SQL Slammer worm infect 75,000 hosts in under 10 minutes?",
+        answer:
+          "SQL Slammer fit inside a single 376-byte UDP packet targeting MS SQL Server Resolution Service port 1434. Because UDP is connectionless, Slammer never waited for TCP SYN-ACK timeouts—it fired random IPv4 packets as fast as the NIC allowed, achieving an initial doubling time of 8.5 seconds.",
+      },
+      {
+        question: "How did Marcus Hutchins' DNS sinkhole stop WannaCry in 2017?",
+        answer:
+          "Before running its EternalBlue SMBv1 propagation routine, WannaCry queried an unregistered hardcoded domain (`iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com`) as an anti-sandbox check. When that domain was registered and pointed to a sinkhole server returning HTTP 200, new infections immediately exited—instantaneously spiking the removal rate γ.",
+      },
+      {
+        question: "How do NDR tools like Zeek and RITA detect Botnet C2 beacons despite jitter?",
+        answer:
+          "While a 20%–30% random sleep jitter defeats simple fixed-interval cron checks, Network Detection and Response (NDR) tools analyze 24-hour connection time series using Fast Fourier Transforms (FFT), skewness of inter-arrival times, and uniform payload byte-size consistency to flag persistent C2 channels.",
+      },
+    ],
+    related: [
+      "snort-suricata-ids-rule-simulator",
+      "live-bgp-asn-peering-looking-glass",
+      "cve-cvss-v4-score-calculator",
+      "reverse-shell-command-generator",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/what-is-computer-worm/",
+    pillarTitle: "What is a Computer Worm & Botnet Architecture?",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "snort-suricata-ids-rule-simulator",
+    name: "Interactive Snort & Suricata IDS Rule Builder & Simulator",
+    category: "cybersecurity",
+    h1: "Interactive Snort & Suricata IDS Rule Builder & Packet Simulator (2026)",
+    subhead:
+      "Build syntax-validated Snort 3 and Suricata 7 IDS/IPS detection rules with HTTP sticky buffers, PCRE regex, byte_test, flowbits, and threshold filters—and dry-run them against simulated packet payloads.",
+    primaryKeyword: "snort suricata rule generator",
+    secondaryKeywords: [
+      "suricata ids rule builder online",
+      "snort 3 rule syntax validator",
+      "ids packet payload rule tester",
+      "suricata sticky buffer cheat sheet",
+    ],
+    metaTitle: "Interactive Snort & Suricata IDS Rule Builder & Simulator (2026)",
+    metaDescription:
+      "Generate and test Snort 3 and Suricata 7 IDS/IPS rules in your browser. Configure actions, flow direction, HTTP/TLS sticky buffers, PCRE, hex content (`|0d 0a|`), and test against packet payloads.",
+    features: [
+      {
+        title: "Dual-Engine Snort 2/3 & Suricata 7 Syntax Builder",
+        description:
+          "Construct complete rules with Action (alert, drop, reject, pass), Protocol (tcp, udp, icmp, http, tls, dns, smb), CIDR/Port variables ($HOME_NET, $EXTERNAL_NET), and direction operators (->, <>).",
+        icon: "Shield",
+      },
+      {
+        title: "Sticky Buffers, Hex Pipes & Fast-Pattern Optimizer",
+        description:
+          "Add multiple `content` matches with mixed ASCII and hex pipe notation (`|90 90 90|`), Suricata sticky buffers (`http.uri`, `http.user_agent`, `tls.sni`, `dns.query`), `nocase`, `depth`, `offset`, `distance`, and `within`.",
+        icon: "Code",
+      },
+      {
+        title: "Live Packet Payload Dry-Run Match Simulator",
+        description:
+          "Test your generated IDS signature against realistic attack packets (Log4Shell JNDI, SQLi UNION SELECT, EternalBlue SMB, Cobalt Strike Beacon, or custom hex/ASCII payloads) with byte-offset highlighting.",
+        icon: "Terminal",
+      },
+      {
+        title: "Performance Linter & ReDoS / Fast-Pattern Auditor",
+        description:
+          "Audit rules for missing `flow:established,to_server`, unanchored PCRE backtracking bottlenecks, short content fast-patterns (<4 bytes), and missing `classtype`/`sid`/`rev` metadata.",
+        icon: "Activity",
+      },
+    ],
+    useCases: [
+      {
+        title: "SOC Detection Engineering & Zero-Day Virtual Patching",
+        description:
+          "Rapidly author and test Suricata `drop` or `alert` signatures for newly disclosed CVEs before vendor software patches can be rolled out across production servers.",
+      },
+      {
+        title: "PCAP Threat Hunting & CTF Blue-Team Challenges",
+        description:
+          "Convert hex packet dumps from Wireshark into precise `content:\"...|hex|...\"` rules with `offset`/`depth` constraints to eliminate false positives.",
+      },
+      {
+        title: "Migrating Legacy Snort 2 Rules to Suricata 7 Sticky Buffers",
+        description:
+          "Upgrade legacy modifier syntax (`content:\"GET\"; http_method;`) to modern high-performance sticky buffer syntax (`http.method; content:\"GET\";`).",
+      },
+    ],
+    howTo: [
+      {
+        name: "Configure Rule Header (Action, Protocol, Networks & Ports)",
+        text: "Select your rule action (`alert`, `drop`, `reject`), protocol (`http`, `tcp`, `dns`, `tls`), source/destination network variables, and port ranges.",
+      },
+      {
+        name: "Add Content Matches, Sticky Buffers & PCRE Modifiers",
+        text: "Define one or more payload patterns (ASCII or `|hex|` bytes), attach sticky buffers (`http.uri`, `tls.sni`), and configure `nocase`, `fast_pattern`, and threshold limits.",
+      },
+      {
+        name: "Check the Performance Linter & Copy the Rule",
+        text: "Review the MPM (Multi-Pattern Matcher) performance score, verify `sid` and `rev` tags, and copy the formatted Snort or Suricata rule.",
+      },
+      {
+        name: "Run the Live Packet Simulator to Verify Detection",
+        text: "Paste a test HTTP request or hex packet payload in the simulator pane to verify whether your rule triggers `[**] ALERT [**]` or misses due to offset/case mismatches.",
+      },
+    ],
+    faq: [
+      {
+        question: "What is the difference between legacy Snort modifiers and Suricata sticky buffers?",
+        answer:
+          "In legacy Snort 2, buffer modifiers were placed after the content keyword (e.g., `content:\"/admin\"; http_uri;`). In Suricata 5–7 and Snort 3, 'sticky buffers' are declared first (e.g., `http.uri; content:\"/admin\";`) and apply to all subsequent `content`, `pcre`, and `isdataat` keywords until another sticky buffer is selected.",
+      },
+      {
+        question: "How does the Multi-Pattern Matcher (MPM) and `fast_pattern` affect IDS performance?",
+        answer:
+          "High-speed IDS engines (Hyperscan/Aho-Corasick) do not evaluate every rule option on every packet. Instead, they extract one distinctive `content` string per rule (the `fast_pattern`) and scan packets in a single pass. Only if the fast_pattern matches does the engine evaluate PCRE or byte_test. Always assign `fast_pattern` to the longest, most unique string in your rule.",
+      },
+      {
+        question: "How does pipe (`|`) hex notation work inside a Snort/Suricata content string?",
+        answer:
+          "Pipe symbols allow mixing printable ASCII and raw binary hexadecimal bytes inside a single `content` match. For example, `content:\"USER|20|root|0d 0a|\";` matches the ASCII letters 'USER', a space byte (0x20), 'root', and a CRLF newline sequence (0x0D 0x0A).",
+      },
+      {
+        question: "Why should every TCP application rule include the `flow` keyword?",
+        answer:
+          "Without `flow:established,to_server;` (or `to_client`), the IDS inspects stateless TCP SYN/RST packets and raw ACK fragments that have not completed the 3-way handshake, wasting CPU cycles and allowing trivial stateless packet-injection evasion.",
+      },
+      {
+        question: "What SID (Signature ID) range should I use for custom local IDS rules?",
+        answer:
+          "SIDs below 1,000,000 are reserved for official Snort Talos rules, and SIDs in the 2,000,000–2,999,999 range are used by Emerging Threats (ET Open / ET Pro). Always assign custom local rules a SID of 1,000,001 to 1,999,999 (or 9,000,000+) so rule updates never overwrite your signatures.",
+      },
+    ],
+    related: [
+      "yara-sigma-rule-syntax-builder",
+      "modbus-mqtt-scada-iot-frame-builder",
+      "sqli-xss-payload-encoder-lab",
+      "nmap-command-builder",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/ids/",
+    pillarTitle: "What is IDS (Intrusion Detection System) & How Rules Work",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "sip-voip-ss7-telecom-attack-simulator",
+    name: "VoIP SIP Header Analyzer, RTP Bandwidth & SS7 Risk Simulator",
+    category: "cybersecurity",
+    h1: "VoIP SIP Header Analyzer, RTP Bandwidth & SS7 Risk Simulator (2026)",
+    subhead:
+      "Parse and audit raw VoIP SIP INVITE/REGISTER signaling headers for Caller-ID spoofing, STIR/SHAKEN attestation levels (A/B/C), RTP codec bandwidth (G.711, Opus, G.729), and legacy SS7/Diameter telecom attack vectors.",
+    primaryKeyword: "sip invite header analyzer voip calculator",
+    secondaryKeywords: [
+      "stir shaken identity header analyzer",
+      "voip rtp bandwidth codec calculator",
+      "sip caller id spoofing detector",
+      "ss7 map sendroutinginfo simulator",
+    ],
+    metaTitle: "VoIP SIP Header Analyzer, RTP Bandwidth & SS7 Risk Simulator (2026)",
+    metaDescription:
+      "Analyze SIP INVITE headers for VoIP Caller-ID spoofing, Via/Contact anomalies, and STIR/SHAKEN PASSporT attestation. Calculate RTP codec bandwidth and simulate SS7/Diameter attacks.",
+    features: [
+      {
+        title: "Forensic SIP INVITE / REGISTER Header Parser",
+        description:
+          "Dissect Via hops, From/To display name vs. URI mismatches, P-Asserted-Identity (PAI), Contact routing, User-Agent scanner signatures (sipvicious/friendly-scanner), and SDP media attributes.",
+        icon: "Search",
+      },
+      {
+        title: "STIR/SHAKEN PASSporT (RFC 8224) Attestation Inspector",
+        description:
+          "Decode base64url `Identity:` JWT headers and payloads to verify Full Attestation (A), Partial Attestation (B), Gateway Attestation (C), and origination tracking (`origid`).",
+        icon: "Shield",
+      },
+      {
+        title: "Precision VoIP RTP Codec & Trunk Bandwidth Calculator",
+        description:
+          "Calculate exact Layer-2/Layer-3 Kbps and Mbps trunk capacity across G.711 (PCMU/PCMA), G.729, Opus, and G.722 codecs with 10ms/20ms/30ms packetization, VLAN 802.1Q, and SRTP/WireGuard overhead.",
+        icon: "Activity",
+      },
+      {
+        title: "SS7 MAP / Diameter Telecom Attack & Defense Simulator",
+        description:
+          "Explore how legacy SS7 MAP (`SendRoutingInfoForSM`, `ProvideSubscriberInfo`, `UpdateLocation`) and 4G Diameter messages enable SMS interception and cell-tower tracking—and how SS7 firewalls block them.",
+        icon: "Wifi",
+      },
+    ],
+    useCases: [
+      {
+        title: "VoIP SOC Triage & Vishing Caller-ID Spoofing Forensics",
+        description:
+          "Paste raw SIP INVITE packet captures from Asterisk, FreeSWITCH, or Kamailio SBCs to detect spoofed `From` headers, missing STIR/SHAKEN `Identity` tokens, and rogue SIP scanners.",
+      },
+      {
+        title: "Enterprise SIP Trunk & SD-WAN QoS Capacity Planning",
+        description:
+          "Compute exact DSCP EF (Expedited Forwarding) bandwidth reservations and packets-per-second (PPS) load for 50 to 5,000 concurrent calls with SRTP encryption.",
+      },
+      {
+        title: "Executive OPSEC & Telecom Threat Modeling",
+        description:
+          "Evaluate how SS7 `UL` (UpdateLocation) and `SRI-SM` roaming attacks compromise SMS 2FA codes and why high-risk executives must migrate to FIDO2 hardware keys.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Paste a Raw SIP INVITE Packet or Load a Forensics Preset",
+        text: "Drop a SIP signaling capture into the analyzer—or load presets for Legitimate STIR/SHAKEN Attestation A, Vishing Spoofed PAI, or SIPVicious Toll-Fraud Recon.",
+      },
+      {
+        name: "Audit Spoofing Indicators & STIR/SHAKEN PASSporT Claims",
+        text: "Review the parsed Via path, From vs. P-Asserted-Identity alignment, decoded STIR/SHAKEN `attest` grade (A/B/C), and SDP media encryption (`RTP/AVP` cleartext vs `RTP/SAVP` SRTP).",
+      },
+      {
+        name: "Calculate Concurrent VoIP RTP Trunk Bandwidth & PPS",
+        text: "Switch to the RTP Calculator tab, choose your codec (G.711, Opus, G.729), packet interval (20ms = 50 pps), and concurrent channels to compute total Mbps.",
+      },
+      {
+        name: "Explore the SS7 MAP / Diameter Roaming Attack Matrix",
+        text: "Inspect the interactive SS7 call-flow simulator to see how GSMA FS.11 Category 1/2/3 Home Routing and SMS firewall rules block rogue HLR/VLR queries.",
+      },
+    ],
+    faq: [
+      {
+        question: "How do attackers spoof Caller ID in VoIP SIP calls?",
+        answer:
+          "In baseline RFC 3261 SIP, the `From:` header (`From: \"Bank Fraud Dept\" <sip:18005550199@spoof.example>`) and `P-Asserted-Identity` (PAI) are plain-text fields. If an upstream wholesale SIP trunk does not enforce strict ANI validation or strip untrusted PAI headers, an attacker's PBX can assert any telephone number.",
+      },
+      {
+        question: "How does STIR/SHAKEN (RFC 8224 / RFC 8588) authenticate caller identity?",
+        answer:
+          "The originating carrier signs a JSON Web Token called a PASSporT inside the SIP `Identity:` header using its STI-CA X.509 private key. The payload binds the calling number (`orig`), called number (`dest`), timestamp (`iat`), and Attestation Level: 'A' (Full: carrier knows the customer and their right to use the number), 'B' (Partial: customer known, number unverified), or 'C' (Gateway: international/legacy transit dump).",
+      },
+      {
+        question: "Why does a 64 kbps G.711 voice call actually consume 87.2 kbps on the network?",
+        answer:
+          "At standard 20ms packetization (50 packets per second), each packet carries 160 bytes of G.711 audio payload plus 12 bytes of RTP header, 8 bytes of UDP header, 20 bytes of IPv4 header, and 18 bytes of Ethernet L2 framing (58 bytes of header overhead per packet). Multiply 218 total bytes × 8 bits × 50 pps = 87.2 kbps per call.",
+      },
+      {
+        question: "How does an SS7 MAP `SendRoutingInfoForSM` attack intercept SMS 2FA codes?",
+        answer:
+          "Signaling System 7 (SS7) was built in the 1970s on implicit trust between global telecom operators. An attacker with leased access to an SS7 global title sends a fake `UpdateLocation` (UL) message to the victim's Home Location Register (HLR), claiming the victim is roaming on the attacker's MSC/VLR node. Subsequent `MT-ForwardSM` SMS messages are routed straight to the attacker.",
+      },
+      {
+        question: "How do you prevent VoIP RTP audio eavesdropping on internal networks?",
+        answer:
+          "Standard SDP media (`m=audio ... RTP/AVP`) transmits voice streams in cleartext UDP, allowing anyone with a packet sniffer (Wireshark) to replay calls with one click. Enforce TLS 1.3 for SIP signaling (SIPS on port 5061) and SRTP (`RTP/SAVP` with SDES or DTLS-SRTP) for AES-encrypted audio transport.",
+      },
+    ],
+    related: [
+      "jwt-jws-token-debugger",
+      "network-download-mtu-bdp-calculator",
+      "live-bgp-asn-peering-looking-glass",
+      "totp-hotp-2fa-code-generator",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/signaling-system-7-ss7-attacks/",
+    pillarTitle: "What Are SS7 & VoIP Telecom Attacks?",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "evil-maid-luks-bitlocker-boot-simulator",
+    name: "Evil Maid Attack, TPM 2.0 PCR & LUKS2/BitLocker Planner",
+    category: "cybersecurity",
+    h1: "Evil Maid Attack, TPM 2.0 PCR Bank & LUKS2/BitLocker Hardening Planner (2026)",
+    subhead:
+      "Simulate physical Evil Maid boot-chain tampering, audit TPM 2.0 Platform Configuration Register (PCR 0–15) measurement bindings, and generate hardened LUKS2 Argon2id + `systemd-cryptenroll` and BitLocker GPO commands.",
+    primaryKeyword: "luks2 argon2id bitlocker tpm planner",
+    secondaryKeywords: [
+      "evil maid attack simulator",
+      "tpm 2.0 pcr register calculator",
+      "systemd cryptenroll tpm2 luks2 guide",
+      "bitlocker tpm pin pcr 7 11 hardening",
+    ],
+    metaTitle: "Evil Maid Attack, TPM 2.0 PCR & LUKS2/BitLocker Planner (2026)",
+    metaDescription:
+      "Simulate physical Evil Maid and cold-boot attacks against unencrypted /boot and TPM-only disk encryption. Configure TPM 2.0 PCR banks (0, 2, 4, 7, 11) and LUKS2 Argon2id parameters.",
+    features: [
+      {
+        title: "Interactive TPM 2.0 PCR (0–15) Boot Measurement Matrix",
+        description:
+          "Select specific Platform Configuration Registers (PCR 0 UEFI firmware, PCR 4 Boot Loader/UKI, PCR 7 Secure Boot Policy, PCR 11 Unified Kernel Image) to compute the PCR bitmask and see which physical attacks each register blocks.",
+        icon: "Cpu",
+      },
+      {
+        title: "Evil Maid & Cold-Boot Attack Vector Simulator",
+        description:
+          "Test your laptop's configuration against 6 physical threat models: Initramfs `/boot` Backdoor, SPI Flash / BootHole Modification, TPM LPC/SPI Bus Sniffing, DMA Thunderbolt/PCIe, and RAM Cold-Boot.",
+        icon: "Shield",
+      },
+      {
+        title: "LUKS2 Argon2id Memory-Hard PBKDF Tuner",
+        description:
+          "Calculate optimal `cryptsetup luksFormat --type luks2 --pbkdf argon2id` memory cost (`--pbkdf-memory`), parallel lanes, and target iteration milliseconds based on your system RAM.",
+        icon: "Lock",
+      },
+      {
+        title: "Copy-Ready systemd-cryptenroll, sbctl UKI & BitLocker Commands",
+        description:
+          "Generate exact CLI provisioning scripts for Linux Unified Kernel Images (UKI + Secure Boot custom keys + TPM2 PIN) and Windows BitLocker (`manage-bde` TPM+PIN with DMA lockdown).",
+        icon: "Terminal",
+      },
+    ],
+    useCases: [
+      {
+        title: "Executive Travel & Hotel-Room Laptop Hardening",
+        description:
+          "Eliminate the classic 'Evil Maid' vulnerability where an attacker modifies an unencrypted Linux `/boot` partition or sniffs a headless TPM-only auto-unlock key on the SPI bus.",
+      },
+      {
+        title: "Linux Unified Kernel Image (UKI) & TPM2 Provisioning",
+        description:
+          "Design a brittle-free TPM 2.0 enrollment strategy using PCR 7 (Secure Boot state) + PCR 11 (signed UKI measurement) + pre-boot PIN so firmware updates don't brick boot unnecessarily.",
+      },
+      {
+        title: "Enterprise Windows 11 BitLocker Compliance Auditing",
+        description:
+          "Verify why standard TPM-only BitLocker is vulnerable to physical SPI bus logic analyzers unless Pre-Boot PIN (`TPMandPIN`), Enhanced PINs, and Kernel DMA Protection are enforced.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Select Your OS Stack & Physical Threat Profile",
+        text: "Choose Linux (LUKS2 + systemd-boot/UKI) or Windows (BitLocker) and configure your current boot architecture (Separate unencrypted /boot vs. Signed UKI, TPM-Only vs. TPM+PIN).",
+      },
+      {
+        name: "Toggle TPM 2.0 PCR Banks (PCR 0 through PCR 15)",
+        text: "Select which PCR registers seal your volume encryption key (e.g., PCR 7 Secure Boot + PCR 11 UKI + PCR 14 MOK) and inspect the calculated hex PCR mask.",
+      },
+      {
+        name: "Tune LUKS2 Argon2id Memory & Iteration Hardness",
+        text: "Set your system RAM allocation (e.g., 1 GiB to 4 GiB PBKDF memory cost) to defend offline disk images against ASIC/GPU cracking.",
+      },
+      {
+        name: "Run the Evil Maid Attack Simulation & Copy Hardening CLI",
+        text: "Review the pass/fail status across all 6 physical attack scenarios and copy the generated `cryptsetup`, `systemd-cryptenroll`, `sbctl`, or `manage-bde` commands.",
+      },
+    ],
+    faq: [
+      {
+        question: "What is an Evil Maid attack and why doesn't standard Full Disk Encryption stop it?",
+        answer:
+          "Coined by Joanna Rutkowska, an Evil Maid attack occurs when an adversary gains brief unattended physical access to a powered-off device (e.g., in a hotel room). In traditional Linux setups, the `/boot` partition (containing the kernel and initramfs that prompt for your LUKS password) is unencrypted. The attacker replaces the initramfs with a trojanized version that logs your passphrase on the next boot.",
+      },
+      {
+        question: "How does a Unified Kernel Image (UKI) + Secure Boot + TPM 2.0 defeat Evil Maid?",
+        answer:
+          "A Unified Kernel Image bundles the Linux kernel, initramfs, and kernel command line into a single PE binary signed with your personal Secure Boot key (`sbctl`). During boot, UEFI verifies the signature (measured into PCR 7) and measures the UKI into PCR 11. If an attacker alters `/boot` or kernel parameters (`init=/bin/sh`), the PCR hash changes and the TPM 2.0 chip refuses to unseal the LUKS2 volume key.",
+      },
+      {
+        question: "Why is 'TPM-Only' automatic disk unlock vulnerable to a $50 logic analyzer?",
+        answer:
+          "When BitLocker or LUKS2 is configured for silent TPM-only unlock (without a pre-boot PIN), the TPM automatically releases the Volume Master Key over the motherboard's discrete SPI or LPC bus as soon as the boot chain passes PCR checks. On laptops with discrete TPM chips, an attacker can tap the SPI pins with a logic analyzer and read the cleartext key in seconds unless `tpm2-pin=yes` / BitLocker Pre-Boot PIN is required.",
+      },
+      {
+        question: "Why is PCR 7 + PCR 11 preferred over PCR 0 + PCR 4 + PCR 8/9 on modern Linux?",
+        answer:
+          "Binding directly to PCR 4 (raw bootloader code hash) means every routine kernel or systemd update changes the PCR digest and breaks TPM unlock. By binding to PCR 7 (Secure Boot authority state) and using signed PCR 11 policies (`systemd-measure`), any kernel signed by your enrolled private key unlocks seamlessly while unsigned tampering is blocked.",
+      },
+      {
+        question: "Why does LUKS2 use Argon2id instead of PBKDF2?",
+        answer:
+          "Legacy LUKS1 used PBKDF2-HMAC-SHA256, which only consumes a few kilobytes of memory and can be parallelized across thousands of GPU shaders. LUKS2 defaults to Argon2id—a memory-hard key derivation function that requires up to 1–4 GB of dedicated RAM per password guess, neutralizing GPU brute-force acceleration.",
+      },
+    ],
+    related: [
+      "password-entropy-crack-time-calculator",
+      "shamir-secret-sharing-bip39-splitter",
+      "linux-windows-privesc-checklist",
+      "ssh-key-ed25519-config-generator",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/evil-maid-attack-and-how-to-prevent-it/",
+    pillarTitle: "What is an Evil Maid Attack & How to Prevent It?",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "osint-doxing-exposure-self-audit-simulator",
+    name: "Personal OSINT & Anti-Doxing Digital Footprint Self-Auditor",
+    category: "cybersecurity",
+    h1: "Personal OSINT & Anti-Doxing Digital Footprint Self-Auditor (2026)",
+    subhead:
+      "Calculate your personal doxing vulnerability score across 20 OSINT pivot vectors, generate customized Google Dork & GitHub commit email self-audit queries, and build a prioritized data-broker opt-out plan.",
+    primaryKeyword: "anti doxing osint self audit checklist",
+    secondaryKeywords: [
+      "personal osint digital footprint scanner",
+      "how to prevent doxing self audit",
+      "google dorks personal data removal",
+      "username reuse pivot risk calculator",
+    ],
+    metaTitle: "Personal OSINT & Anti-Doxing Digital Footprint Self-Auditor (2026)",
+    metaDescription:
+      "Audit your personal digital footprint against OSINT recon and doxing pivot chains. Generate defensive Google Dorks, GitHub commit email checks, and a prioritized data-broker remediation plan.",
+    features: [
+      {
+        title: "20-Point OSINT Pivot & Doxing Exposure Risk Engine",
+        description:
+          "Evaluate your exposure across 4 core attack surfaces: Identity & Data Brokers, Username & Email Correlation, Telecom/SIM & Domain WHOIS, and Media EXIF / Geolocation Leaks.",
+        icon: "Shield",
+      },
+      {
+        title: "Attacker Pivot-Chain Graph Simulator",
+        description:
+          "Visualize the exact multi-hop recon chain showing how a single reused gaming handle or public Git commit email pivots to Breach Compilations, People-Search Brokers, Voter Rolls, and Home Address.",
+        icon: "Activity",
+      },
+      {
+        title: "Defensive Self-Dorking Query Studio (Google & GitHub)",
+        description:
+          "Enter your name, handle, or domain (100% locally in browser memory) to synthesize exact Google Search removal dorks, GitHub `.patch` commit email checks, and Archive.org Wayback queries.",
+        icon: "Search",
+      },
+      {
+        title: "Prioritized Data-Broker Opt-Out & OPSEC Remediation Playbook",
+        description:
+          "Generate a tailored step-by-step hardening checklist covering email aliasing, VoIP/masked numbers, LLC/Redacted WHOIS, Google 'Results About You' removal, and credit freezes.",
+        icon: "Lock",
+      },
+    ],
+    useCases: [
+      {
+        title: "Security Researchers, Journalists & Content Creators",
+        description:
+          "Identify and sever the OSINT links connecting your public pseudonym or handle to your legal name, residential address, and family members before harassment occurs.",
+      },
+      {
+        title: "Executive Protection & VIP Spear-Phishing Defense",
+        description:
+          "Audit corporate leadership footprints for exposed cell phone numbers, home property deeds, and unredacted domain WHOIS records used in SIM-swap and swatting attacks.",
+      },
+      {
+        title: "Developer Git Commit & Dotfiles Hygiene Check",
+        description:
+          "Discover whether historical public GitHub commits leak your personal Gmail address or employer username via the `.patch` trick.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Complete the 20-Vector OSINT Exposure Assessment",
+        text: "Toggle the interactive audit items across Username Reuse, People-Search Brokers, Phone/2FA Hygiene, Domain WHOIS, and Social Media Geolocation.",
+      },
+      {
+        name: "Inspect Your Doxing Risk Score & Attacker Pivot Chain",
+        text: "Review your weighted exposure score (0–100) and see which high-leverage pivot vectors allow an adversary to jump from an online alias to physical location.",
+      },
+      {
+        name: "Generate Defensive Self-Audit Dorks Locally",
+        text: "Type your handle, name, or email in the local Dork Generator to build one-click Google search strings and GitHub `.patch` verification URLs.",
+      },
+      {
+        name: "Execute the Prioritized Remediation & Opt-Out Checklist",
+        text: "Follow the generated Critical, High, and Medium action items to purge data brokers, Compartmentalize aliases, and lock down telecom accounts.",
+      },
+    ],
+    faq: [
+      {
+        question: "How does an attacker pivot from a single username to a real-world home address?",
+        answer:
+          "Doxing relies on 'identifier chaining.' If you reuse a handle (`@skywalker99`) on a forum and an old Spotify, Venmo, or Steam account, an OSINT tool (like Sherlock or Maigret) correlates them. From there, a historical credential breach or public GitHub commit `.patch` reveals an email address, which queries People-Search Data Brokers (Whitepages, Spokeo, FastPeopleSearch) or public voter/property records to expose full legal name, phone number, and physical address.",
+      },
+      {
+        question: "What is the GitHub `.patch` email leak and how do I check for it?",
+        answer:
+          "Even if you enable 'Keep my email addresses private' in GitHub settings today, any older commit made before changing your local `git config user.email` permanently embeds your personal email inside the Git object header. Appending `.patch` to the end of any public GitHub commit URL displays the raw `From: Name <email@domain.com>` line.",
+      },
+      {
+        question: "Why is using your primary cell phone number for social media and 2FA a major doxing risk?",
+        answer:
+          "Mobile phone numbers act as a universal primary key across credit bureaus, data brokers, and marketing databases—and password reset flows often display partial phone hints (`***-***-4829`) that confirm a target's number. Always keep your carrier SIM number private, use an authenticator app or FIDO2 security key for 2FA, and give out VoIP alias numbers for public services.",
+      },
+      {
+        question: "How do I remove my home address and phone number from Google Search?",
+        answer:
+          "First submit opt-out requests directly at the upstream data brokers (FastPeopleSearch, TruePeopleSearch, Whitepages, Radaris, Spokeo), because Google merely indexes their pages. Then use Google's 'Results About You' PII removal tool to de-index cached snippets containing your residential address, phone number, or email.",
+      },
+      {
+        question: "Does this OSINT Self-Auditor store the name or handle I enter?",
+        answer:
+          "Never. All risk scoring and Google Dork string assembly happen 100% inside your browser's client-side JavaScript state with zero network requests.",
+      },
+    ],
+    related: [
+      "exif-metadata-scrubber-viewer",
+      "zero-width-unicode-canary-trap-studio",
+      "username-osint-dork-generator",
+      "browser-fingerprint-entropy-scanner",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/what-is-doxing-and-how-it-is-done-in/",
+    pillarTitle: "What is Doxing & How to Protect Your Digital Identity",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "bluetooth-audio-latency-stereo-tester",
+    name: "Bluetooth Lip-Sync Latency, Stereo Phase & 165Hz Water-Eject Tester",
+    category: "tech",
+    h1: "Bluetooth Audio Latency (ms), Stereo Phase & 165Hz Speaker Water-Eject Tester (2026)",
+    subhead:
+      "Measure true Bluetooth headphone and speaker lip-sync delay in milliseconds, verify Left/Right stereo imaging and 180° phase polarity, sweep 20Hz–20kHz bass/treble response, and run a 165Hz acoustic water-eject pulse.",
+    primaryKeyword: "bluetooth audio latency test water eject",
+    secondaryKeywords: [
+      "bluetooth headphone latency test ms",
+      "speaker water eject 165hz sound generator",
+      "left right stereo phase polarity test",
+      "bluetooth codec latency comparison aptx ldac sbc",
+    ],
+    metaTitle: "Bluetooth Audio Latency Tester, Stereo Phase & 165Hz Water-Eject (2026)",
+    metaDescription:
+      "Test Bluetooth speaker and earbuds audio latency in milliseconds, check Left/Right stereo channels and phase polarity, sweep 20Hz–20kHz frequency response, and run a 165Hz water-eject tone.",
+    features: [
+      {
+        title: "Interactive Audio-Visual Lip-Sync Latency Metronome (ms)",
+        description:
+          "Synchronize a high-contrast 60fps/120fps visual flash indicator against a crisp Web Audio API transient click using a ±500ms offset slider or tap-sync calibration to measure exact Bluetooth delay.",
+        icon: "Activity",
+      },
+      {
+        title: "165Hz Sinusoidal Acoustic Speaker Water-Eject Engine",
+        description:
+          "Generate a resonant 165Hz–180Hz high-excursion sine wave with amplitude modulation pulses designed to break surface tension and expel trapped water droplets from smartphone or portable speaker grilles.",
+        icon: "Zap",
+      },
+      {
+        title: "Left / Right Channel Isolation & 180° Phase Polarity Check",
+        description:
+          "Test discrete Left-Only, Right-Only, Center Mono, In-Phase (0°), and Out-of-Phase (180° inverted right channel) pink-noise/tone signals to diagnose miswired drivers or spatial DSP bugs.",
+        icon: "Wifi",
+      },
+      {
+        title: "20Hz–20kHz Sub-Bass Rattle & Codec Latency Reference Matrix",
+        description:
+          "Sweep sub-bass (20Hz–100Hz) to detect speaker enclosure rattle and compare measured latency against SBC, AAC, aptX Adaptive,aptX Lossless, LDAC, and LC3 (LE Audio) benchmarks.",
+        icon: "Cpu",
+      },
+    ],
+    useCases: [
+      {
+        title: "Gaming & Video Lip-Sync Calibration for Wireless Earbuds",
+        description:
+          "Measure the exact millisecond lag of your Bluetooth headphones or soundbar so you can set the precise audio delay offset in VLC, OBS, Kodi, or Android TV.",
+      },
+      {
+        title: "Clearing Muffled Phone or Portable Speaker Grilles After Splash",
+        description:
+          "Run the 30-second 165Hz resonant acoustic pulse cycle to vibrate water out of wet smartphone bottom-firing speakers or waterproof Bluetooth speakers.",
+      },
+      {
+        title: "Auditing New Bluetooth Speakers for Driver Rattle & Phase Inversion",
+        description:
+          "Verify that both stereo channels fire cleanly, bass radiators don't buzz at 40Hz–60Hz, and in-phase signals stay centered rather than hollow.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Connect Your Bluetooth Speaker or Earbuds & Set Safe Volume",
+        text: "Pair your Bluetooth audio device, disable spatial virtualization effects, and set volume to 50% (or 80%–100% specifically when running the 165Hz Water-Eject mode).",
+      },
+      {
+        name: "Measure Lip-Sync Latency (ms) with the Visual Metronome",
+        text: "Start the Audio-Visual Latency Tester and either tap the button in rhythm with the sound you hear or adjust the millisecond compensation slider until the flash and click align.",
+      },
+      {
+        name: "Verify Left/Right Stereo Channels & Phase Polarity",
+        text: "Switch to the Stereo & Phase tab to test isolated Left, Right, In-Phase (focused center image), and Out-of-Phase (diffuse hollow sound) signals.",
+      },
+      {
+        name: "Run the 165Hz Water-Eject Cycle or Sub-Bass Sweep",
+        text: "Place a wet phone or speaker face-down and start the 165Hz pulsed water-eject generator, or sweep 20Hz–20,000Hz to test sub-bass extension.",
+      },
+    ],
+    faq: [
+      {
+        question: "Why does Bluetooth audio have noticeable lip-sync latency compared to wired headphones?",
+        answer:
+          "Bluetooth audio must buffer PCM samples, compress them using a codec (SBC, AAC, LDAC, aptX), packetize and transmit them over the 2.4GHz radio link with retransmission buffers, and decode them inside the headphone DSP. Standard SBC/AAC codecs introduce 150ms–280ms of latency, whereas aptX Low Latency / LC3 (Bluetooth LE Audio) reduces delay to 20ms–40ms.",
+      },
+      {
+        question: "How does a 165Hz sound wave eject water from a speaker grille?",
+        answer:
+          "A 165Hz sine wave matches the low-frequency mechanical resonance of compact micro-speaker diaphragms (the same principle used by the Apple Watch Water Lock feature). At high excursion, the rapid air pressure oscillations overcome capillary surface tension in the fine mesh grille, atomizing and pushing out trapped water droplets.",
+      },
+      {
+        question: "What is the difference between In-Phase (0°) and Out-of-Phase (180°) stereo audio?",
+        answer:
+          "When Left and Right speakers are In-Phase, both cones push outward simultaneously on positive waveform peaks, creating a tight, centered vocal image and strong bass. If one channel's polarity is inverted (180° Out-of-Phase), one cone pushes out while the other pulls in—causing destructive acoustic interference that hollows out bass and makes the sound seem to come from outside your head.",
+      },
+      {
+        question: "What millisecond audio latency is considered acceptable for gaming vs. movies?",
+        answer:
+          "For movies and YouTube, most operating systems automatically delay video playback to match the Bluetooth A2DP sink's reported latency. For real-time competitive gaming or rhythm games where video cannot be delayed, human perception notices audio lag above 40ms–50ms, and anything over 120ms feels noticeably disconnected.",
+      },
+      {
+        question: "Does this tool use pre-recorded MP3 files or pure Web Audio synthesis?",
+        answer:
+          "All clicks, 165Hz water-eject pulses, frequency sweeps, and phase-inverted signals are synthesized mathematically in real time using the browser's hardware-accelerated `AudioContext` (`OscillatorNode`, `StereoPannerNode`, and `GainNode`) with zero MP3 compression artifacts.",
+      },
+    ],
+    related: [
+      "smartphone-display-pwm-oled-tester",
+      "gamepad-controller-polling-drift-tester",
+      "power-bank-mah-wh-flight-limit-calculator",
+      "network-download-mtu-bdp-calculator",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/best-bluetooth-speakers/",
+    pillarTitle: "10 Best Portable Bluetooth Speakers in 2026",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "typing-wpm-keystroke-dynamics-lab",
+    name: "Live WPM Typing Test & Keystroke Dynamics Biometric Lab",
+    category: "android",
+    h1: "Live WPM Typing Test & Keystroke Dynamics Biometric Lab (2026)",
+    subhead:
+      "Measure your Net WPM, Raw CPM, and accuracy while profiling high-resolution keystroke dynamics—Dwell Time (key hold ms), Flight Time (inter-key latency ms), digraph rhythm entropy, and biometric typing uniqueness.",
+    primaryKeyword: "keystroke dynamics typing test wpm",
+    secondaryKeywords: [
+      "wpm typing speed test with dwell flight time",
+      "keystroke biometrics behavioral analysis",
+      "keyboard latency and rhythm analyzer",
+      "typing accuracy and cpm calculator",
+    ],
+    metaTitle: "Live WPM Typing Test & Keystroke Dynamics Biometric Lab (2026)",
+    metaDescription:
+      "Test your typing speed (Net WPM, Raw WPM, CPM, Accuracy) and inspect real-time Keystroke Dynamics biometrics: Dwell Time (ms), Flight Time (ms), digraph rhythm variance, and N-key rollover.",
+    features: [
+      {
+        title: "Sub-Millisecond `performance.now()` WPM & Accuracy Engine",
+        description:
+          "Track live Net WPM, Raw WPM, Characters Per Minute (CPM), and error-penalized accuracy across Technical Cybersecurity, Programming Code, and Standard Prose passages.",
+        icon: "Zap",
+      },
+      {
+        title: "Dwell Time (Hold) & Flight Time (Seek) Biometric Profiler",
+        description:
+          "Capture exact `keydown`-to-`keyup` Dwell durations and `keyup`-to-next-`keydown` Flight intervals in milliseconds to map your behavioral typing signature.",
+        icon: "Activity",
+      },
+      {
+        title: "Digraph Latency Heatmap & Rollover Overlap Detector",
+        description:
+          "Identify your fastest and slowest character transitions (digraphs), measure negative flight times (rollover key overlap during fast touch-typing), and compute rhythm stability (CV%).",
+        icon: "Cpu",
+      },
+      {
+        title: "Behavioral Biometrics & Anti-Bot Spoofing Breakdown",
+        description:
+          "See how enterprise fraud detection and continuous authentication systems distinguish human Gaussian dwell/flight distributions from robotic macro or LLM paste scripts.",
+        icon: "Shield",
+      },
+    ],
+    useCases: [
+      {
+        title: "Benchmarking Android On-Screen Keyboards vs. Mechanical Switches",
+        description:
+          "Compare your Net WPM, error rate, and inter-key flight latency across Gboard, SwiftKey, thumb-typing, and desktop mechanical keyboards.",
+      },
+      {
+        title: "Understanding Behavioral Biometrics & Continuous Authentication",
+        description:
+          "Inspect the exact Dwell Time (H), Down-Down (DD), and Up-Down (UD) timing vectors that banks and behavioral CAPTCHAs use to fingerprint users without cookies.",
+      },
+      {
+        title: "Diagnosing Key Chatter & Slow Finger Transitions",
+        description:
+          "Spot switches firing duplicate sub-15ms keystrokes (chatter) or identify specific digraph bottlenecks slowing down your coding and terminal speed.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Select Passage Mode (Cybersecurity, Code Syntax, or Prose)",
+        text: "Choose a prompt style that matches your workflow—from standard English vocabulary to Linux CLI commands and JavaScript/Python code.",
+      },
+      {
+        name: "Type the Passage in the High-Precision Capture Arena",
+        text: "Start typing to trigger the sub-millisecond `performance.now()` timer; every `keydown` and `keyup` event records hold duration and inter-key flight latency.",
+      },
+      {
+        name: "Analyze Net WPM, Dwell/Flight Histograms & Digraph Speeds",
+        text: "Review your final Net WPM, accuracy percentage, mean Dwell Time (ms), mean Flight Time (ms), and fastest/slowest two-letter digraph transitions.",
+      },
+      {
+        name: "Inspect Your Biometric Rhythm Entropy & Rollover Ratio",
+        text: "Check your N-key rollover overlap percentage (negative flight time where the next key is pressed before the previous key is released) and human rhythm variance score.",
+      },
+    ],
+    faq: [
+      {
+        question: "How are Net WPM and Raw WPM mathematically calculated?",
+        answer:
+          "By international typing convention, one 'word' is standardized as 5 keystrokes (including spaces and punctuation). Raw WPM = (Total Characters Typed / 5) / Elapsed Minutes. Net WPM subtracts uncorrected errors per minute from Raw WPM and scales by accuracy so random mashing cannot inflate scores.",
+      },
+      {
+        question: "What are Dwell Time and Flight Time in keystroke dynamics biometrics?",
+        answer:
+          "Dwell Time (also called Hold Time) is the millisecond duration between pressing a key (`keydown`) and releasing that same key (`keyup`), typically 60ms–110ms for humans. Flight Time (Up-Down or Seek Time) is the elapsed time between releasing one key and pressing the next key.",
+      },
+      {
+        question: "Why can Flight Time be negative during fast typing?",
+        answer:
+          "Experienced touch-typists and swipe/two-thumb mobile typists begin pressing the next letter with one finger before fully releasing the previous key with another finger. This overlapping rollover produces a negative Up-Down Flight Time (e.g., −15ms to −40ms) and is one of the strongest biometric markers of natural human fluency.",
+      },
+      {
+        question: "How can websites use keystroke dynamics to track or authenticate users?",
+        answer:
+          "Even if you clear cookies, use a VPN, and spoof your User-Agent, the ratio of your Dwell times and common digraph latencies (like 'th', 'in', 'er', 'on') forms a behavioral biometric template with Equal Error Rates (EER) below 2%–5%. Privacy-hardened browsers (like Tor Browser and Mullvad Browser) quantize or add jitter to keyboard event timestamps to mitigate this.",
+      },
+      {
+        question: "Are my keystrokes transmitted anywhere during this test?",
+        answer:
+          "No. All `keydown`/`keyup` timestamp arrays, statistical standard deviations, and digraph charts are computed locally in your browser's memory and discarded when you reset or close the tab.",
+      },
+    ],
+    related: [
+      "browser-fingerprint-entropy-scanner",
+      "gamepad-controller-polling-drift-tester",
+      "password-entropy-crack-time-calculator",
+      "smartphone-display-pwm-oled-tester",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/best-keyboard-apps/",
+    pillarTitle: "10 Best Keyboard Apps for Android in 2026",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "srt-vtt-subtitle-time-shifter-converter",
+    name: "SRT & VTT Subtitle Time-Shifter (±ms), Drift Fixer & Converter",
+    category: "apps",
+    h1: "SRT & WebVTT Subtitle Time-Shifter (±ms), FPS Drift Fixer & Converter (2026)",
+    subhead:
+      "Resynchronize out-of-sync movie and video subtitles by shifting timestamps (± milliseconds/seconds), fixing progressive PAL/NTSC framerate drift (23.976 ↔ 25 fps), stripping hearing-impaired SDH/HTML tags, and converting between SRT and WebVTT.",
+    primaryKeyword: "srt subtitle time shifter vtt converter",
+    secondaryKeywords: [
+      "sync srt subtitles online milliseconds",
+      "convert srt to vtt webvtt online",
+      "subtitle framerate drift fixer 23.976 to 25",
+      "remove sdh brackets and html from subtitles",
+    ],
+    metaTitle: "SRT & VTT Subtitle Time-Shifter (±ms), FPS Drift Fixer & Converter (2026)",
+    metaDescription:
+      "Shift out-of-sync SRT and WebVTT subtitle timestamps by ±ms, fix progressive FPS framerate drift (23.976, 24, 25, 29.97 fps), strip SDH/HTML tags, and convert SRT ↔ VTT locally.",
+    features: [
+      {
+        title: "Millisecond-Precision Constant Offset Shifter (±ms / ±s)",
+        description:
+          "Advance or delay every subtitle cue in an `.srt` or `.vtt` file by exact milliseconds (e.g., +1500ms or −2350ms) with zero negative-timestamp clamping bugs.",
+        icon: "Zap",
+      },
+      {
+        title: "Linear FPS Drift Ratio & Two-Point Anchor Resynchronizer",
+        description:
+          "Fix subtitles that start in sync but progressively drift out of alignment due to PAL/NTSC framerate conversions (23.976 ↔ 24 ↔ 25 ↔ 29.97 fps) or two-point first/last line anchors.",
+        icon: "Activity",
+      },
+      {
+        title: "Bidirectional SubRip (.srt) ↔ WebVTT (.vtt) Converter",
+        description:
+          "Convert between comma-delimited SubRip (`00:01:23,450`) and period-delimited HTML5 WebVTT (`WEBVTT` header + `00:01:23.450`) with sequential cue re-indexing.",
+        icon: "Code",
+      },
+      {
+        title: "SDH Hearing-Impaired Bracket, HTML Tag & CPS Auditor",
+        description:
+          "Optionally strip `[music]`, `(sighs)`, `<i>`/`<font>` formatting tags, overlapping timestamps, and flag cues exceeding Netflix's 20 Characters-Per-Second (CPS) reading speed limit.",
+        icon: "Shield",
+      },
+    ],
+    useCases: [
+      {
+        title: "Fixing Constant Audio/Subtitle Delay in VLC, Plex, or MX Player",
+        description:
+          "Permanently bake a +2.5s or −1.2s subtitle offset into your `.srt` file so it plays in perfect sync across Smart TVs, Jellyfin, Plex, and mobile media players.",
+      },
+      {
+        title: "Eliminating Progressive 23.976 fps vs. 25 fps PAL Speedup Drift",
+        description:
+          "Rescale subtitle timelines by 0.95904x or 1.04271x when a subtitle track ripped from a 25 fps European broadcast drifts further off every minute on a 23.976 fps Blu-ray release.",
+      },
+      {
+        title: "Preparing Clean WebVTT Captions for HTML5 `<track>` & YouTube",
+        description:
+          "Convert legacy `.srt` captions into standards-compliant `.vtt` files, scrub messy `<font color>` tags, and audit reading speed (CPS) for accessibility compliance.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Paste Your .SRT / .VTT Content or Drop a Subtitle File",
+        text: "Drop any `.srt` or `.vtt` file into the editor—or load the sample multi-cue movie dialogue track to test timestamp transformations.",
+      },
+      {
+        name: "Set Your Millisecond Shift (±ms) or Framerate Drift Ratio",
+        text: "Enter a positive offset (to make subtitles appear later) or negative offset (to make subtitles appear earlier), or choose source/target FPS (e.g., 25 fps → 23.976 fps).",
+      },
+      {
+        name: "Configure Output Format (SRT or WebVTT) & Cleanup Filters",
+        text: "Select `.srt` or `.vtt` output and toggle optional scrubbers for HTML tags (`<i>`, `<font>`), SDH sound effects (`[dramatic music]`), and cue renumbering.",
+      },
+      {
+        name: "Inspect Before/After Timeline Diff & Download File",
+        text: "Verify the side-by-side timestamp transformation table, check the Characters-Per-Second (CPS) readability audit, and download your synced `.srt` or `.vtt` file.",
+      },
+    ],
+    faq: [
+      {
+        question: "Should I use a positive (+) or negative (−) millisecond shift if subtitles appear too early?",
+        answer:
+          "If subtitles appear on screen BEFORE the actor speaks, the timestamps are too small—use a POSITIVE offset (e.g., `+1500` ms) to add 1.5 seconds and delay the text. If subtitles appear AFTER the actor has already spoken, use a NEGATIVE offset (e.g., `-1500` ms) to pull them earlier.",
+      },
+      {
+        question: "Why do my subtitles start in sync at the beginning of the movie but drift 3 minutes off by the end?",
+        answer:
+          "A constant millisecond shift only fixes intro logo differences. If the delay grows steadily over time, the subtitle file was timed for a different video framerate—most commonly 25.000 fps (PAL 4% speedup) vs. 23.976 fps (NTSC/Cinema). Applying the 25 → 23.976 linear scale factor (1.042709x) stretches every timestamp proportionally.",
+      },
+      {
+        question: "What is the exact syntax difference between SubRip (.srt) and WebVTT (.vtt)?",
+        answer:
+          "SubRip (`.srt`) starts immediately with cue number `1` and separates seconds from milliseconds with a comma (`00:01:15,250 --> 00:01:18,600`). WebVTT (`.vtt`, used by HTML5 `<track>` elements) requires the header line `WEBVTT` at the top of the file and uses a decimal period for milliseconds (`00:01:15.250 --> 00:01:18.600`).",
+      },
+      {
+        question: "What is Characters Per Second (CPS) in professional subtitling standards?",
+        answer:
+          "Characters Per Second (CPS) measures how many visible characters a viewer must read divided by the cue's on-screen duration in seconds. Netflix and BBC broadcast guidelines recommend keeping adult subtitles at or below 17–20 CPS and children's captions below 13–15 CPS so viewers have time to watch the scene.",
+      },
+      {
+        question: "Does this subtitle tool support UTF-8 foreign scripts and right-to-left languages?",
+        answer:
+          "Yes. Because all parsing and timestamp math run natively in UTF-8 inside your browser, Arabic, Hebrew, Hindi, Japanese, Korean, Cyrillic, and European accented characters are preserved without mojibake corruption.",
+      },
+    ],
+    related: [
+      "video-bitrate-4k-ffmpeg-command-builder",
+      "bluetooth-audio-latency-stereo-tester",
+      "regex-pattern-debugger-tester",
+      "zero-width-unicode-canary-trap-studio",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/best-subtitles-download-sites/",
+    pillarTitle: "15 Best Free Subtitles Download Sites for Movies in 2026",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "photo-rgb-histogram-webp-compressor",
+    name: "Client-Side Photo RGB Histogram, Exposure EV & WebP Compressor",
+    category: "android",
+    h1: "Client-Side Photo RGB Histogram, Exposure EV & WebP Compressor (2026)",
+    subhead:
+      "Analyze any photograph's 256-bin Red, Green, Blue, and Rec.709 Luminance histograms, detect shadow/highlight clipping (Zebras), calculate Exposure Value (EV100) from camera settings, and compress/convert to WebP or JPEG locally.",
+    primaryKeyword: "image rgb histogram analyzer webp converter",
+    secondaryKeywords: [
+      "online photo rgb luminance histogram viewer",
+      "highlight shadow clipping zebra analyzer",
+      "exposure value ev100 calculator photography",
+      "client side webp image compressor",
+    ],
+    metaTitle: "Photo RGB Histogram Analyzer, Exposure EV & WebP Compressor (2026)",
+    metaDescription:
+      "Inspect 256-bin RGB and Rec.709 Luminance histograms in your browser. Detect blown highlights and crushed shadows, calculate Exposure Value (EV), and compress photos to WebP.",
+    features: [
+      {
+        title: "256-Bin RGB & Rec.709 Luminance SVG Histogram Engine",
+        description:
+          "Scan every pixel via HTML5 Canvas `ImageData` to plot real-time Red, Green, Blue, and perceived Luminance ($0.2126R + 0.7152G + 0.0722B$) distributions across tones 0–255.",
+        icon: "Activity",
+      },
+      {
+        title: "Highlight & Shadow Clipping Zebra Overlay",
+        description:
+          "Quantify exact percentage of crushed blacks (bins 0–2) and blown highlights (bins 253–255), plus toggle a live camera-style Zebra overlay directly on the image preview.",
+        icon: "Search",
+      },
+      {
+        title: "Photographic Exposure Value (EV100) & Equivalent Exposure Calculator",
+        description:
+          "Compute $EV_{100} = \\log_2(N^2 / t) - \\log_2(S / 100)$ from Aperture ($f/N$), Shutter Speed ($t$), and ISO ($S$), and find equivalent exposure stops for ND filters or low-light shooting.",
+        icon: "Cpu",
+      },
+      {
+        title: "Zero-Upload WebP / JPEG Resizer & Byte-Savings Compressor",
+        description:
+          "Resize dimensions, adjust lossy quality (10%–100%), compare exact before/after KB file size and compression ratio, and download optimized WebP or JPEG images locally.",
+        icon: "Zap",
+      },
+    ],
+    useCases: [
+      {
+        title: "Auditing Smartphone & Mirrorless Camera Dynamic Range",
+        description:
+          "Verify whether a portrait or landscape shot is properly exposed to the right (ETTR) or suffering from clipped RGB channels and color casts.",
+      },
+      {
+        title: "Core Web Vitals (LCP) Image Optimization for Blogs & Apps",
+        description:
+          "Convert heavy 4MB camera JPEGs or PNGs into crisp 80% quality WebP assets in your browser, slashing payload size by 65%–85% without uploading files.",
+      },
+      {
+        title: "Manual Pro-Mode Camera Exposure Planning on Android",
+        description:
+          "Use the interactive Exposure Triangle calculator to match $EV_{100}$ lighting conditions (Sunny 16, Golden Hour, Indoor Studio, Astrophotography) to shutter and ISO stops.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Drop Any Photo or Load a Built-In Exposure Test Preset",
+        text: "Select a JPEG, PNG, or WebP image from your device—or load a synthetic High-Contrast / Balanced / Clipped-Highlight test gradient.",
+      },
+      {
+        name: "Inspect the 256-Bin RGB & Luminance Histogram",
+        text: "Toggle between Combined RGB, Individual Channels (R, G, B), and Rec.709 Luminance to check tonal balance across Shadows (0–63), Midtones (64–191), and Highlights (192–255).",
+      },
+      {
+        name: "Enable Highlight/Shadow Clipping Zebras & Check EV100",
+        text: "Turn on the Clipping Zebra overlay to pinpoint blown white pixels (red mask) and crushed black pixels (blue mask), or calculate camera EV100 in the Exposure tab.",
+      },
+      {
+        name: "Compress to WebP/JPEG & Download Optimized Image",
+        text: "Adjust target max width and WebP/JPEG quality slider, inspect the live KB reduction badge, and download your compressed photo.",
+      },
+    ],
+    faq: [
+      {
+        question: "What is the difference between an RGB Histogram and a Luminance Histogram?",
+        answer:
+          "An RGB histogram averages or overlays the raw 0–255 values of the Red, Green, and Blue subpixels equally. A Rec.709 Luminance histogram weights each channel according to human eye cone sensitivity ($Y = 0.2126R + 0.7152G + 0.0722B$), because human vision is over 3x more sensitive to green light than red and nearly 10x more sensitive to green than blue.",
+      },
+      {
+        question: "Why can a single color channel clip even when the Luminance histogram looks safe?",
+        answer:
+          "When photographing saturated red roses, neon signs, or sunset skies, the Red channel can hit 255 (losing all texture detail) while Green and Blue remain low. Because Green dominates the Luminance formula ($71.5\\%$), the overall Luminance histogram stays well below 255—which is why inspecting individual R, G, and B channels is essential.",
+      },
+      {
+        question: "How is Exposure Value ($EV_{100}$) calculated from Aperture, Shutter Speed, and ISO?",
+        answer:
+          "At base ISO 100, Exposure Value is defined as $EV_{100} = \\log_2(N^2 / t)$, where $N$ is the aperture f-number (e.g., $f/2.8$) and $t$ is exposure time in seconds (e.g., $1/250$). When shooting at a higher ISO $S$, the scene luminance EV adjusted to ISO 100 is $EV_{100} = \\log_2(N^2 / t) - \\log_2(S / 100)$. Bright daylight ('Sunny 16') equals $EV_{100} \\approx 15$.",
+      },
+      {
+        question: "How much smaller is WebP compared to standard JPEG at equivalent visual quality?",
+        answer:
+          "Google's WebP format uses VP8 predictive intra-frame block coding and entropy encoding, typically achieving 25% to 35% smaller file sizes than mozjpeg/standard JPEG at SSIM-equivalent quality (around quality 80–82), plus native 8-bit alpha channel transparency.",
+      },
+      {
+        question: "Are my photos uploaded to any cloud server during histogram analysis or WebP compression?",
+        answer:
+          "No. Both the pixel-level `getImageData()` histogram tally and the `canvas.toBlob('image/webp')` encoder execute 100% locally inside your browser.",
+      },
+    ],
+    related: [
+      "deepfake-ela-image-forensics-inspector",
+      "exif-metadata-scrubber-viewer",
+      "video-bitrate-4k-ffmpeg-command-builder",
+      "steganography-lsb-image-lab",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/best-photo-editing-apps-android/",
+    pillarTitle: "10 Best Photo Editing Apps for Android in 2026",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "video-bitrate-4k-ffmpeg-command-builder",
+    name: "4K Video Bitrate Calculator & Watermark-Free FFmpeg Command Studio",
+    category: "android",
+    h1: "4K Video Bitrate, Storage Size & Watermark-Free FFmpeg Command Studio (2026)",
+    subhead:
+      "Calculate exact video file sizes (MB/GB) and target bitrates (Mbps) across H.264, HEVC (H.265), AV1, and ProRes using Bits-Per-Pixel (BPP) quality modeling—and generate watermark-free FFmpeg CLI commands.",
+    primaryKeyword: "video bitrate calculator ffmpeg command generator",
+    secondaryKeywords: [
+      "4k 60fps video file size calculator",
+      "ffmpeg crf command generator h264 hevc av1",
+      "bits per pixel bpp video quality calculator",
+      "target file size discord video bitrate calculator",
+    ],
+    metaTitle: "4K Video Bitrate Calculator & FFmpeg Command Generator (2026)",
+    metaDescription:
+      "Calculate 1080p, 1440p, 4K, and 8K video bitrates (Mbps) and storage sizes (GB) for H.264, HEVC/H.265, AV1, and ProRes. Generate watermark-free FFmpeg commands for trimming, CRF encoding, and target file sizes.",
+    features: [
+      {
+        title: "Bits-Per-Pixel (BPP) & Codec Efficiency Bitrate Engine",
+        description:
+          "Calculate optimal target video bitrates (Mbps) and total storage (MB/GB) from Resolution (720p to 8K), Frame Rate (24–120 fps), Motion Complexity (BPP), and Codec efficiency (H.264, HEVC, AV1, ProRes 422).",
+        icon: "Activity",
+      },
+      {
+        title: "Reverse Target-Size Bitrate Solver (Discord / Email / Upload Caps)",
+        description:
+          "Enter a strict file size ceiling (e.g., 10 MB, 25 MB, 100 MB, or 500 MB) and video duration to solve for the exact two-pass video + audio kbps required to fit under the limit.",
+        icon: "Zap",
+      },
+      {
+        title: "Interactive Watermark-Free FFmpeg CLI Command Builder",
+        description:
+          "Generate copy-ready `ffmpeg` commands for CRF encoding (`libx264`, `libx265`, `libsvtav1`), hardware acceleration (`h264_nvenc`, `hevc_videotoolbox`, `vaapi`), stream-copy trimming (`-ss`/`-to -c copy`), and audio extraction.",
+        icon: "Terminal",
+      },
+      {
+        title: "YouTube, Twitch, TikTok & Android Camera Storage Matrix",
+        description:
+          "Compare recommended SDR and HDR10 upload bitrates and estimate how many minutes of 4K60 HEVC video fit on 128GB, 256GB, or 512GB smartphone storage.",
+        icon: "Cpu",
+      },
+    ],
+    useCases: [
+      {
+        title: "Watermark-Free Video Editing & Transcoding via Termux / Desktop FFmpeg",
+        description:
+          "Replace freemium video apps that inject watermarks with single-line `ffmpeg` commands for lossless cut/trim, resolution scaling, CRF compression, and GIF/WebM export.",
+      },
+      {
+        title: "Fitting Clips Under Strict 10MB / 25MB / 100MB Upload Limits",
+        description:
+          "Use the Target File Size solver to generate a 2-pass FFmpeg command guaranteed to land just under Discord, Slack, GitHub issue, or email attachment caps.",
+      },
+      {
+        title: "Smartphone 4K60 / 8K24 Storage & SD Card Capacity Planning",
+        description:
+          "Calculate exact gigabytes per hour before shooting long 4K 60fps interviews or gaming VODs in H.264 vs. HEVC vs. AV1.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Select Resolution, Frame Rate, Duration & Video Codec",
+        text: "Choose your frame dimensions (1080p, 1440p, 4K UHD, Vertical 9:16 Reels, or 8K), frame rate (24, 30, 60, 120 fps), video length, and codec (H.264, H.265/HEVC, AV1, ProRes).",
+      },
+      {
+        name: "Pick Motion Complexity (BPP) or Target File Size Ceiling",
+        text: "Select Low Motion (Talking Head/Screen Recording), Medium (Vlog/Cinema), High (Gaming/Action Sports), or switch to Target Size Mode (e.g., 25 MB).",
+      },
+      {
+        name: "Configure FFmpeg Encoder, CRF Quality & Filters",
+        text: "Choose software (`libx264`/`libx265`/`libsvtav1`) or GPU hardware encoding, set your Constant Rate Factor (CRF 18–28), and toggle faststart, scaling, or timestamp trimming.",
+      },
+      {
+        name: "Copy Your FFmpeg Command & Inspect Storage Breakdown",
+        text: "Review the calculated Video Bitrate (Mbps), Total File Size (MB/GB), Kush Gauge BPP score, and copy the generated one-line or two-pass `ffmpeg` command.",
+      },
+    ],
+    faq: [
+      {
+        question: "What is the Kush Gauge / Bits-Per-Pixel (BPP) formula for video bitrate?",
+        answer:
+          "The Kush Gauge calculates target bitrate as $\\text{Bitrate (bps)} = \\text{Width} \\times \\text{Height} \\times \\text{FPS} \\times \\text{Motion Factor (0.07 to 0.20)}$. For H.264/AVC, a BPP of 0.10–0.15 delivers clean 1080p/4K video without macroblocking. Because HEVC (H.265) is ~35% more efficient and AV1 is ~50% more efficient than H.264, they achieve the same visual fidelity at correspondingly lower BPP values.",
+      },
+      {
+        question: "How do I calculate the exact video bitrate to hit a target file size (like 25 MB)?",
+        answer:
+          "First convert the target size in megabytes to kilobits ($\\text{Size}_{\\text{MB}} \\times 8192\\text{ kbits}$), divide by the video duration in seconds to get total bitrate (kbps), and subtract your audio bitrate (e.g., 128 kbps AAC). Applying a 95% safety margin for MP4 container overhead yields the exact `-b:v` target for a two-pass encode.",
+      },
+      {
+        question: "What is CRF (Constant Rate Factor) in FFmpeg and what value should I use?",
+        answer:
+          "Constant Rate Factor (CRF) adjusts bitrate dynamically per frame to maintain constant perceived visual quality (0 = lossless, 51 = worst). For `libx264`, CRF 18 is visually lossless and CRF 23 is the default balance. For `libx265` (HEVC), CRF 22–26 is optimal, and for `libsvtav1`, CRF 26–32 delivers remarkable compression.",
+      },
+      {
+        question: "Why does `ffmpeg -ss 00:01:00 -to 00:02:00 -i input.mp4 -c copy out.mp4` trim instantaneously without quality loss?",
+        answer:
+          "Passing `-c copy` instructs FFmpeg to demux and remux the compressed H.264/HEVC video and AAC audio packets directly at the nearest keyframe without decoding and re-encoding pixels. A 10-minute 4K video trims in under 1 second with zero generation loss and zero watermarks.",
+      },
+      {
+        question: "Why should web and mobile MP4 videos always include `-movflags +faststart`?",
+        answer:
+          "By default, FFmpeg writes the MP4 `moov` atom (the index table of frames and timestamps) at the very end of the file after encoding finishes. Adding `-movflags +faststart` relocates the `moov` atom to the front of the file so mobile browsers and social apps can begin streaming playback immediately via HTTP byte-range requests.",
+      },
+    ],
+    related: [
+      "srt-vtt-subtitle-time-shifter-converter",
+      "photo-rgb-histogram-webp-compressor",
+      "network-download-mtu-bdp-calculator",
+      "bluetooth-audio-latency-stereo-tester",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/best-video-editing-apps-android/",
+    pillarTitle: "15 Best Video Editing Apps for Android in 2026",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "rss-atom-json-feed-widget-previewer",
+    name: "Interactive RSS / Atom Feed Validator & Embed Widget Generator",
+    category: "apps",
+    h1: "Interactive RSS 2.0, Atom 1.0 & JSON Feed Validator + Embed Widget Generator (2026)",
+    subhead:
+      "Validate RSS 2.0, Atom 1.0, and JSON Feed 1.1 syntax, inspect parsed feed items and enclosures, audit XSS/CDATA sanitization, and generate zero-dependency responsive HTML/JS embed widgets.",
+    primaryKeyword: "rss feed validator widget generator",
+    secondaryKeywords: [
+      "rss 2.0 atom xml validator online",
+      "embed rss feed widget html generator",
+      "rss feed previewer and parser",
+      "json feed 1.1 to rss converter",
+    ],
+    metaTitle: "Interactive RSS / Atom Feed Validator & Embed Widget Generator (2026)",
+    metaDescription:
+      "Validate RSS 2.0, Atom 1.0, and JSON Feed 1.1 feeds in your browser. Preview parsed articles, check RFC-822 dates and GUIDs, and generate responsive, dependency-free HTML/CSS/JS RSS widgets.",
+    features: [
+      {
+        title: "Tri-Format Feed Parser & Validator (RSS 2.0, Atom 1.0, JSON Feed 1.1)",
+        description:
+          "Parse XML `<rss version=\"2.0\">`, `<feed xmlns=\"http://www.w3.org/2005/Atom\">`, and JSON Feed 1.1 payloads using the browser's native DOMParser and validate required channel and item tags.",
+        icon: "Code",
+      },
+      {
+        title: "RFC-822 / ISO-8601 Date, GUID & Self-Link Compliance Linter",
+        description:
+          "Audit feeds for common syndication errors: non-RFC-822 `<pubDate>` strings, duplicate or missing `<guid>` identifiers, missing `atom:link rel=\"self\"`, and unescaped `&` entities.",
+        icon: "Shield",
+      },
+      {
+        title: "Live Responsive Widget Customizer (Grid, List, Ticker & Compact Cards)",
+        description:
+          "Preview your parsed feed items in real time across 4 layout modes (Card Grid, Editorial List, Minimal Sidebar, News Ticker) with dark/light themes, accent color pickers, and excerpt length controls.",
+        icon: "Globe",
+      },
+      {
+        title: "Zero-Dependency Self-Hosted Embed Snippet Generator",
+        description:
+          "Generate clean, copy-ready vanilla HTML + CSS + JavaScript `fetch()` widget code (with DOMPurify-style HTML sanitization and no third-party tracking scripts or monthly subscription fees).",
+        icon: "Terminal",
+      },
+    ],
+    useCases: [
+      {
+        title: "Embedding Live Blog or Podcast Feeds on Static & WordPress Sites",
+        description:
+          "Generate a lightweight, zero-iframe HTML/JS widget to display your latest WordPress, Substack, Ghost, or YouTube channel posts on any landing page.",
+      },
+      {
+        title: "Debugging Broken Podcast & Aggregator Syndication Feeds",
+        description:
+          "Diagnose why Apple Podcasts, Feedly, or Google News rejected an XML feed due to malformed `<enclosure>` MIME types, invalid RFC-2822 dates, or unclosed tags.",
+      },
+      {
+        title: "Auditing Third-Party RSS Feeds for Stored XSS Payloads",
+        description:
+          "Inspect `<description>` and `<content:encoded>` CDATA blocks for dangerous `<script>`, `onerror=`, or `javascript:` URI injections before rendering external feeds.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Paste XML/JSON Feed Source, Enter a Feed URL, or Load a Preset",
+        text: "Paste raw RSS 2.0 XML, Atom 1.0 XML, or JSON Feed 1.1—or fetch a CORS-enabled public feed / load our built-in Tech Blog & Podcast presets.",
+      },
+      {
+        name: "Review the Spec Validation Report & Security Audit",
+        text: "Inspect the validator diagnostics for channel metadata (`title`, `link`, `description`, `atom:link`), item GUID uniqueness, date formatting, and XSS sanitization alerts.",
+      },
+      {
+        name: "Customize Your Live RSS Widget Layout & Theme",
+        text: "Choose Card Grid, Vertical List, or Ticker layout, adjust max items (3–10), toggle timestamps/excerpts, and customize dark/light surface styling.",
+      },
+      {
+        name: "Copy the Standalone HTML/JS Widget Embed Code",
+        text: "Copy the generated zero-dependency embed snippet to paste directly into your website, Webflow, Ghost, or WordPress Custom HTML block.",
+      },
+    ],
+    faq: [
+      {
+        question: "What is the difference between RSS 2.0, Atom 1.0, and JSON Feed 1.1?",
+        answer:
+          "RSS 2.0 uses `<rss version=\"2.0\"><channel><item>` XML tags and requires RFC-822 dates (`Mon, 28 Sep 2026 08:00:00 GMT`). Atom 1.0 (RFC 4287) is a stricter W3C XML standard using `<feed><entry>`, mandatory `<id>` URIs, and ISO-8601/RFC-3339 timestamps (`2026-09-28T08:00:00Z`). JSON Feed 1.1 replaces XML entirely with a clean JSON object containing an `items` array.",
+      },
+      {
+        question: "Why do many RSS validators complain about missing `atom:link rel=\"self\"`?",
+        answer:
+          "Including `<atom:link href=\"https://example.com/feed.xml\" rel=\"self\" type=\"application/rss+xml\" />` inside an RSS 2.0 `<channel>` makes the feed self-referential and portable, allowing feed readers to discover the canonical update URL even if the XML file was saved locally.",
+      },
+      {
+        question: "How can rendering an external RSS feed introduce Cross-Site Scripting (XSS)?",
+        answer:
+          "RSS `<description>` and `<content:encoded>` fields routinely contain raw HTML wrapped in `<![CDATA[ ... ]]>`. If a widget injects those strings directly into `element.innerHTML` without stripping `<script>`, `onload`/`onerror` event handlers, and `javascript:` `<a href>` links, a compromised upstream blog can execute arbitrary JavaScript on your site.",
+      },
+      {
+        question: "Why does fetching an external RSS URL directly from browser JavaScript sometimes hit a CORS error?",
+        answer:
+          "Browsers enforce Cross-Origin Resource Sharing (CORS). If the remote blog server does not send the `Access-Control-Allow-Origin: *` HTTP header on `/feed/`, direct client-side `fetch()` requests are blocked unless routed through a lightweight Cloudflare Worker proxy or server-side cache (included in our embed code tab).",
+      },
+      {
+        question: "What date format is required inside an RSS 2.0 `<pubDate>` element?",
+        answer:
+          "RSS 2.0 strictly requires RFC-822 / RFC-2822 formatted dates (e.g., `Mon, 28 Sep 2026 12:30:00 +0000`). Using ISO-8601 dates (`2026-09-28`) inside an RSS 2.0 `<pubDate>` tag will cause strict parsers and podcast directories to fail date sorting.",
+      },
+    ],
+    related: [
+      "json-yaml-toml-schema-converter",
+      "csp-security-header-generator",
+      "sqli-xss-payload-encoder-lab",
+      "robots-txt-ai-crawler-generator",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/creative-ways-rss-widgets/",
+    pillarTitle: "5 Creative Ways to Use RSS Widgets for User Engagement",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "ir-blaster-nec-pronto-hex-decoder",
+    name: "Infrared (IR) Blaster NEC / Pronto Hex Waveform Decoder",
+    category: "android",
+    h1: "Infrared (IR) Blaster NEC / Pronto Hex Decoder & Waveform Visualizer (2026)",
+    subhead:
+      "Convert consumer electronics Infrared (IR) remote control codes between NEC (Address + Command hex), Philips Pronto CCF Hex (`0000 006D...`), and raw microsecond mark/space pulse arrays with an interactive 38kHz waveform visualizer.",
+    primaryKeyword: "pronto hex ir code decoder nec",
+    secondaryKeywords: [
+      "nec ir protocol to pronto hex converter",
+      "pronto hex carrier frequency calculator",
+      "flipper zero esphome raw ir converter",
+      "android ir blaster transmit pattern generator",
+    ],
+    metaTitle: "Infrared (IR) Blaster NEC / Pronto Hex Decoder & Waveform Visualizer (2026)",
+    metaDescription:
+      "Decode and generate Philips Pronto Hex (`0000 006D...`) and NEC 32-bit IR remote codes. Calculate carrier frequency (kHz), visualize mark/space waveforms, and export Android ConsumerIrManager, Flipper Zero, and ESPHome snippets.",
+    features: [
+      {
+        title: "Bidirectional NEC 32-Bit ↔ Philips Pronto CCF Hex Converter",
+        description:
+          "Encode 8-bit/16-bit NEC Address and Command bytes (including inverted bitwise checksums `~Addr` and `~Cmd`) into canonical Pronto Hex strings (`0000 006D 0022 0002...`) and decode Pronto Hex back to NEC bytes.",
+        icon: "Code",
+      },
+      {
+        title: "Pronto Carrier Frequency ($f_c$) & Burst-Pair Microsecond Analyzer",
+        description:
+          "Compute exact IR carrier frequency in kHz ($1,000,000 / (\\text{Word}_1 \\times 0.241246)$), sequence #1 (one-shot) and sequence #2 (repeat) burst pair counts, and total frame duration in ms.",
+        icon: "Cpu",
+      },
+      {
+        title: "Interactive 38kHz PWM Mark/Space Oscilloscope Visualizer",
+        description:
+          "Inspect the complete infrared pulse train on a zoomable SVG logic analyzer waveform: 9000µs AGC Leader Mark, 4500µs Space, 32 LSB-first logical `0`/`1` bit cells, and Stop Bit.",
+        icon: "Activity",
+      },
+      {
+        title: "Multi-Target Export (Android ConsumerIrManager, ESPHome, Flipper Zero `.ir`)",
+        description:
+          "Generate copy-ready code for Android Kotlin `ConsumerIrManager.transmit(38000, pattern)`, Home Assistant ESPHome `remote_transmitter.transmit_nec`, Arduino `IRremote`, and Flipper Zero `.ir` files.",
+        icon: "Terminal",
+      },
+    ],
+    useCases: [
+      {
+        title: "Building Custom Android IR Blaster Remote Profiles",
+        description:
+          "Convert Pronto Hex codes from RemoteCentral or IRDB into microsecond integer arrays ready for Android's `ConsumerIrManager.transmit()` API on Xiaomi/Poco/OnePlus phones.",
+      },
+      {
+        title: "Home Assistant ESPHome, Broadlink & Tasmota Smart Home Integration",
+        description:
+          "Decode captured raw IR mark/space timings from TVs, AC units, and soundbars into clean NEC hex addresses and commands for smart home automation.",
+      },
+      {
+        title: "Flipper Zero & Hardware Reverse Engineering",
+        description:
+          "Inspect whether an appliance uses Standard NEC (8-bit address + 8-bit inverted check) or Extended NEC (16-bit address) and generate formatted `.ir` signal definitions.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Choose Input Mode (NEC Address/Command or Pronto CCF Hex)",
+        text: "Enter an NEC Device Address (e.g., `0x04`) and Command byte (e.g., `0x08` Power), or paste a 4-character-grouped Philips Pronto Hex string (`0000 006D...`), or pick a TV/Audio preset.",
+      },
+      {
+        name: "Inspect Carrier Frequency, 32-Bit Frame & Checksum Validity",
+        text: "Verify the carrier frequency (e.g., 38.029 kHz for `006D`), LSB-first vs. MSB-first bit ordering, and whether `Address ^ ~Address == 0xFF` passes standard NEC integrity.",
+      },
+      {
+        name: "Examine the Logic-Analyzer Mark/Space Waveform",
+        text: "View the SVG timing diagram showing the 9ms leader burst, 4.5ms space, 562.5µs marks, and 562.5µs (Bit 0) vs. 1687.5µs (Bit 1) spaces.",
+      },
+      {
+        name: "Copy Ready-to-Use Android, Flipper Zero, or ESPHome Code",
+        text: "Select your target platform tab to copy the raw microsecond array, Pronto Hex string, Flipper Zero `.ir` block, or ESPHome YAML snippet.",
+      },
+    ],
+    faq: [
+      {
+        question: "How is the carrier frequency calculated from the second word of a Pronto Hex code?",
+        answer:
+          "In Philips Pronto CCF Hex format, the first word `0000` indicates a raw learned modulated signal, and the second 16-bit hex word $N$ represents the carrier period in internal Pronto clock ticks of $0.241246\\text{ µs}$ (derived from a $4.145146\\text{ MHz}$ crystal). The carrier frequency in Hz is $f_c = 1,000,000 / (N_{\\text{dec}} \\times 0.241246)$. Thus `006D` ($109_{\\text{dec}}$) equals $38,028.8\\text{ Hz}$ (~38 kHz), and `0067` ($103_{\\text{dec}}$) equals $40.24\\text{ kHz}$ (Sony SIRC).",
+      },
+      {
+        question: "How does the NEC infrared protocol encode logical 0 and logical 1 bits?",
+        answer:
+          "NEC uses Pulse Distance Encoding over a 38 kHz carrier. Every frame begins with a 9000 µs (9 ms) AGC leader mark and a 4500 µs (4.5 ms) space. Each of the 32 bits (transmitted Least Significant Bit first) starts with a 562.5 µs mark (21 carrier cycles): a logical `0` follows with a 562.5 µs space (total 1.125 ms), whereas a logical `1` follows with a 3x space of 1687.5 µs (total 2.25 ms), ending with a final 562.5 µs stop mark.",
+      },
+      {
+        question: "What is the difference between Standard NEC and Extended NEC?",
+        answer:
+          "Standard NEC transmits an 8-bit Address followed by its bitwise complement (`~Address`), then an 8-bit Command followed by its bitwise complement (`~Command`) for error detection—guaranteeing every frame has exactly sixteen `0`s and sixteen `1`s (constant 67.5 ms length). Extended NEC sacrifices the inverted address check byte to support a full 16-bit Address (65,536 device IDs) while keeping the 8-bit Command + `~Command` check.",
+      },
+      {
+        question: "How does Android's `ConsumerIrManager.transmit()` API expect IR patterns?",
+        answer:
+          "Added in Android 4.4 (API 19), `ConsumerIrManager.transmit(int carrierFrequency, int[] pattern)` expects the carrier frequency in Hertz (e.g., `38000`) and an alternating array of integer **microseconds** (Mark, Space, Mark, Space...), whereas Pronto Hex stores durations in **carrier cycles**. Our converter multiplies each Pronto Hex burst count by the carrier period in microseconds to produce exact Android timing arrays.",
+      },
+      {
+        question: "Why do only certain Android phones (like Xiaomi, Poco, Redmi, OnePlus, and Honor) have an IR blaster?",
+        answer:
+          "An IR blaster requires a physical 940nm infrared LED driver mounted on the top bezel edge of the phone. While Samsung and Google removed IR LEDs after 2016, Xiaomi, Redmi, Poco, OnePlus, Vivo, and Huawei continue to include top-edge IR hardware because infrared remains the universal standard for air conditioners, TVs, projectors, and set-top boxes.",
+      },
+    ],
+    related: [
+      "adb-fastboot-command-generator",
+      "modbus-mqtt-scada-iot-frame-builder",
+      "bluetooth-audio-latency-stereo-tester",
+      "power-bank-mah-wh-flight-limit-calculator",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/best-ir-blaster-apps/",
+    pillarTitle: "10 Best IR Blaster Remote Control Apps for Android in 2026",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "power-bank-mah-wh-flight-limit-calculator",
+    name: "Power Bank Real Capacity (mAh to Wh) & 100Wh Flight Limit Calculator",
+    category: "tech",
+    h1: "Power Bank Real Capacity (mAh to Wh), Efficiency Loss & 100Wh Flight Limit Calculator (2026)",
+    subhead:
+      "Convert power bank milliamp-hours (mAh) to Watt-hours (Wh), verify FAA/TSA/EASA/CAAC 100Wh & 160Wh carry-on airline compliance, and calculate real-world usable charges after 3.7V→5V/9V/20V boost converter & cable heat loss.",
+    primaryKeyword: "mah to wh power bank calculator flight limit",
+    secondaryKeywords: [
+      "power bank real usable capacity calculator",
+      "100wh airline flight limit mah converter",
+      "why 20000mah power bank only gives 13000mah",
+      "usb pd fast charging efficiency loss calculator",
+    ],
+    metaTitle: "Power Bank Real Capacity (mAh to Wh) & 100Wh Airline Flight Calculator (2026)",
+    metaDescription:
+      "Convert power bank mAh to Watt-hours (Wh), check FAA/TSA/EASA 100Wh and 160Wh carry-on flight rules, and calculate real usable device charges after 3.7V DC-DC boost conversion loss.",
+    features: [
+      {
+        title: "Cell Energy (mAh ↔ Wh) & FAA/TSA/EASA/CAAC Airline Compliance Checker",
+        description:
+          "Compute nominal Watt-hours ($\\text{Wh} = \\text{mAh} \\times V_{\\text{cell}} / 1000$) at 3.6V, 3.7V, or 3.85V Li-Ion/LiFePO4 voltages and instantly verify against the ≤100Wh (Allowed), 100–160Wh (Airline Approval), and >160Wh (Banned) aviation tiers.",
+        icon: "Shield",
+      },
+      {
+        title: "Real-World Usable Output Capacity (5V / 9V / 15V / 20V USB-PD) Model",
+        description:
+          "Reveal why a marketed '20,000 mAh' (at 3.7V cell voltage) power bank only delivers ~12,600 mAh at 5V USB output after accounting for voltage step-up ($3.7\\text{V} \\to 5\\text{V}$) and DC-DC boost + PMIC heat loss.",
+        icon: "Zap",
+      },
+      {
+        title: "Full Device Recharge Counter (Smartphones, Tablets, Handhelds & Laptops)",
+        description:
+          "Calculate exact number of 0%–100% recharges for iPhone 16/17 Pro Max, Samsung Galaxy S25/S26 Ultra, Steam Deck OLED, iPad Pro, or MacBook Air M3/M4.",
+        icon: "Cpu",
+      },
+      {
+        title: "USB-C PD Recharge Time & Multi-Stage CC/CV Curve Estimator",
+        description:
+          "Estimate how long it takes to recharge the power bank itself at 18W, 30W, 65W, 100W, or 140W USB-PD input including the final 80%–100% Constant-Voltage (CV) taper phase.",
+        icon: "Activity",
+      },
+    ],
+    useCases: [
+      {
+        title: "Airport Security (TSA / EASA / DGCA / CAAC) Carry-On Verification",
+        description:
+          "Confirm before flying that your 20,000 mAh (74 Wh) or 27,000 mAh (99.9 Wh) laptop power bank is legally below the strict 100 Wh (27,027 mAh @ 3.7V) carry-on ceiling.",
+      },
+      {
+        title: "Auditing Fake or Inflated Power Bank Capacity Claims",
+        description:
+          "Compare the printed 'Rated Capacity (5V=3A)' fine print on a power bank shell against its advertised cell mAh to verify whether its boost converter efficiency meets industry standards (82%–88%).",
+      },
+      {
+        title: "Backpacking & Off-Grid Tech Kit Sizing",
+        description:
+          "Plan the exact mAh/Wh battery bank needed to keep a phone, action camera, and laptop powered across a 3-day trip without carrying excess weight.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Enter Advertised Power Bank Capacity (mAh) & Cell Chemistry Voltage",
+        text: "Input the marketed mAh (e.g., 10,000, 20,000, 24,000, or 27,650 mAh) and select the internal cell nominal voltage (standard 3.7V Li-Ion/Li-Po, 3.85V High-Voltage Li-Po, or 3.2V LiFePO4).",
+      },
+      {
+        name: "Check Your Airline Flight Compliance Verdict (Wh)",
+        text: "Inspect the calculated Watt-hours (Wh) against ICAO/IATA/FAA/TSA/EASA/CAAC rules (≤100Wh Carry-On Allowed, 100–160Wh Airline Approval Required, >160Wh Prohibited).",
+      },
+      {
+        name: "Select USB-PD Output Voltage & Target Device Battery",
+        text: "Pick a target device preset (or enter custom target battery mAh/Wh) and charging protocol (5V Standard, 9V/12V Fast Charge, or 20V Laptop USB-PD) to see real usable charges.",
+      },
+      {
+        name: "Review the Energy Loss Breakdown Waterfall",
+        text: "Examine how many Watt-hours are preserved vs. lost to DC-DC boost conversion (~8%–12%), cable resistance (~2%), and target device battery charging PMIC (~5%–8%).",
+      },
+    ],
+    faq: [
+      {
+        question: "Why does my 20,000 mAh power bank only charge my 5,000 mAh phone about 2.5 times instead of 4 times?",
+        answer:
+          "Manufacturers advertise capacity based on the internal lithium cells' nominal voltage of **3.7V** ($20,000\\text{ mAh} \\times 3.7\\text{V} = 74\\text{ Wh}$). However, USB ports output at **5V** (or 9V/15V/20V for USB-PD). Stepping 3.7V up to 5V immediately changes the theoretical capacity to $74\\text{ Wh} / 5\\text{V} = 14,800\\text{ mAh}$. After ~10% DC-DC boost converter loss in the power bank and ~8% charging circuit heat loss inside the phone, roughly **62–65 Wh (12,500–13,000 mAh)** of net energy reaches the phone battery—giving $\\approx 2.5$ full charges.",
+      },
+      {
+        question: "What is the exact maximum mAh power bank allowed on airplanes without airline approval?",
+        answer:
+          "Global aviation regulators (FAA, TSA, EASA, IATA, DGCA, CAAC) regulate lithium batteries by **Watt-hours (Wh)**, not mAh, setting the unrestricted carry-on limit at **100 Wh**. At a standard 3.7V cell voltage, $100\\text{ Wh} = (100 \\times 1000) / 3.7 = \\mathbf{27,027\\text{ mAh}}$. This is why flagship laptop power banks are specifically engineered to 26,800 mAh (99.16 Wh) or 27,000 mAh (99.9 Wh). Remember: power banks are strictly forbidden in checked luggage and must always go in your cabin carry-on.",
+      },
+      {
+        question: "What is the difference between 'Cell Capacity' and 'Rated Capacity' printed on a power bank?",
+        answer:
+          "Regulatory standards (especially China's GB/T 35590 and CCC certification) require manufacturers to print two numbers on the casing: **Cell Capacity** (e.g., `20,000 mAh / 74 Wh at 3.7V`) and **Rated Capacity** (e.g., `12,600 mAh at 5V=3A`). Rated Capacity is the true measured energy delivered out of the USB port at 5V.",
+      },
+      {
+        question: "Does fast charging at 9V or 20V USB-PD waste more power bank battery than slow 5V charging?",
+        answer:
+          "Running the power bank's synchronous boost converter at high wattage (e.g., 65W–140W at 20V) generates slightly more inductor and MOSFET switching heat (reducing conversion efficiency by ~3%–5% compared to gentle 5V/1A trickle charging), though high voltage reduces $I^2R$ copper loss across the USB-C cable.",
+      },
+      {
+        question: "Why can't I bring a power bank onto a flight if the Wh label has rubbed off?",
+        answer:
+          "Aviation security officers (especially at CAAC airports in China and European/Asian hubs) are instructed to confiscate any lithium power bank that lacks a clearly legible manufacturer print showing either Watt-hours (Wh) or both Voltage (V) and Milliamp-hours (mAh) so they can verify it is under 100 Wh.",
+      },
+    ],
+    related: [
+      "smartphone-display-pwm-oled-tester",
+      "bluetooth-audio-latency-stereo-tester",
+      "network-download-mtu-bdp-calculator",
+      "ir-blaster-nec-pronto-hex-decoder",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/best-power-banks/",
+    pillarTitle: "10 Best Portable Power Bank Chargers in 2026",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "ab-testing-significance-sample-calculator",
+    name: "A/B Testing Statistical Significance (p-value) & Sample Size Calculator",
+    category: "ai",
+    h1: "A/B Testing Statistical Significance (p-value), Bayesian Win Probability & Sample Size Calculator (2026)",
+    subhead:
+      "Evaluate A/B split-test conversion experiments with two-proportion Z-tests, exact p-values, 95%/99% Confidence Intervals, Bayesian Beta-Binomial win probability, and pre-test Minimum Detectable Effect (MDE) sample size planning.",
+    primaryKeyword: "ab testing statistical significance calculator",
+    secondaryKeywords: [
+      "ab test p value and z score calculator",
+      "minimum detectable effect sample size calculator",
+      "bayesian ab test probability to beat baseline",
+      "split testing conversion rate confidence interval",
+    ],
+    metaTitle: "A/B Testing Statistical Significance (p-value) & Sample Size Calculator (2026)",
+    metaDescription:
+      "Calculate A/B test statistical significance (Z-score, p-value, 95% confidence interval, relative lift) and Bayesian win probability. Plan pre-test sample sizes and traffic duration from MDE and Statistical Power.",
+    features: [
+      {
+        title: "Frequentist Two-Proportion Z-Test & Confidence Interval Engine",
+        description:
+          "Compute exact pooled standard error, Z-statistic, one-tailed or two-tailed $p$-value, absolute conversion delta, relative lift (%), and 90%/95%/99% Wald/Agresti-Caffo confidence intervals.",
+        icon: "Activity",
+      },
+      {
+        title: "Bayesian Beta-Binomial Posterior Win Probability",
+        description:
+          "Estimate the exact posterior probability $P(\\text{Variant B} > \\text{Control A})$ using Beta($\\alpha = 1 + c, \\beta = 1 + n - c$) distributions alongside overlapping SVG probability density curves.",
+        icon: "Cpu",
+      },
+      {
+        title: "Pre-Test Sample Size, MDE & Test Duration Planner",
+        description:
+          "Solve for required visitors per variation from Baseline Conversion Rate, Minimum Detectable Effect (Relative or Absolute MDE), Statistical Power ($1 - \\beta$, default 80%), and Significance Level ($\\alpha$, default 5%).",
+        icon: "Zap",
+      },
+      {
+        title: "Sample Ratio Mismatch (SRM) Chi-Square Integrity Guard",
+        description:
+          "Automatically run a Pearson $\\chi^2$ goodness-of-fit test on Control vs. Variant visitor traffic to detect broken experiment bucketing, bot skew, or redirect drop-off (SRM $p < 0.001$).",
+        icon: "Shield",
+      },
+    ],
+    useCases: [
+      {
+        title: "SaaS Checkout, Pricing Page & Onboarding Split Testing",
+        description:
+          "Verify whether a +14.2% relative lift in trial signups is statistically significant at $p < 0.05$ or merely random binomial noise before shipping to 100% of users.",
+      },
+      {
+        title: "AI Prompt Engineering & LLM Conversion Evaluation",
+        description:
+          "Compare user thumbs-up/task-completion rates between two AI system prompts or model versions (e.g., Variant B vs. Baseline A) with rigorous confidence bounds.",
+      },
+      {
+        title: "Pre-Experiment Traffic & Duration Sizing",
+        description:
+          "Calculate how many days an experiment must run given your daily unique visitors so stakeholders don't 'peek' and stop underpowered tests prematurely.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Enter Control (A) & Variant (B) Visitors and Conversions",
+        text: "Input unique visitors ($n_A, n_B$) and conversions ($c_A, c_B$) for your live experiment—or load a SaaS Checkout, E-Commerce CTA, or Sample Ratio Mismatch preset.",
+      },
+      {
+        name: "Configure Confidence Level (90%, 95%, 99%) & Hypothesis Tail",
+        text: "Select your target confidence threshold ($1 - \\alpha$) and choose Two-Tailed (recommended standard: detects both positive lift and negative regression) or One-Tailed testing.",
+      },
+      {
+        name: "Inspect Z-Score, p-Value, SRM Check & Posterior Probability Curves",
+        text: "Review the significance verdict badge, relative lift confidence interval, Bayesian chance to beat baseline, and the Sample Ratio Mismatch ($\chi^2$) traffic health check.",
+      },
+      {
+        name: "Plan Future Experiments in the MDE Sample Size Calculator Tab",
+        text: "Switch to the Sample Size Planner, enter your baseline conversion rate, desired Minimum Detectable Effect (e.g., 10% relative lift), and daily traffic to compute required test days.",
+      },
+    ],
+    faq: [
+      {
+        question: "How is the Z-score and p-value calculated for an A/B conversion test?",
+        answer:
+          "Given Control conversion rate $p_A = c_A / n_A$ and Variant rate $p_B = c_B / n_B$, the pooled proportion under the null hypothesis ($p_A = p_B$) is $\\hat{p} = (c_A + c_B) / (n_A + n_B)$. The pooled standard error is $SE = \\sqrt{\\hat{p}(1 - \\hat{p})(1/n_A + 1/n_B)}$, and the test statistic is $Z = (p_B - p_A) / SE$. The two-tailed $p$-value is $2 \\times (1 - \\Phi(|Z|))$, where $\\Phi$ is the standard normal cumulative distribution function.",
+      },
+      {
+        question: "What is Sample Ratio Mismatch (SRM) and why does it invalidate an A/B test?",
+        answer:
+          "If your experiment is configured for a 50/50 traffic split across 20,000 users, you expect roughly 10,000 users in Control A and 10,000 in Variant B. If Control receives 10,450 and Variant receives 9,550, a $\\chi^2$ test yields $p < 0.001$—indicating a **Sample Ratio Mismatch**. SRM usually means slow variant page load, client-side redirect bugs, or bot filtering dropped a specific segment of users from one bucket, rendering the conversion comparison biased.",
+      },
+      {
+        question: "Why is 'peeking' at p-values daily and stopping as soon as p < 0.05 a major statistical error?",
+        answer:
+          "Standard fixed-horizon Z-tests assume you evaluate the $p$-value once after reaching your pre-calculated sample size. Checking a test every day for 14 days and stopping the first moment $p$ dips below 0.05 inflates your true false-positive (Type I error) rate from 5% to over **25%–30%**. Always commit to the MDE sample size upfront.",
+      },
+      {
+        question: "What is the difference between Relative MDE and Absolute MDE?",
+        answer:
+          "If your baseline conversion rate is **5.0%**, a **10% Relative MDE** means detecting a shift to **5.5%** ($5.0\\% \\times 1.10$), whereas a **10% Absolute MDE** would mean jumping from 5.0% to **15.0%**. Most product and growth teams specify Minimum Detectable Effect in relative terms (e.g., 5% to 15% relative lift).",
+      },
+      {
+        question: "When should I use a Two-Tailed test vs. a One-Tailed test?",
+        answer:
+          "A Two-Tailed test splits your $\\alpha$ error budget equally between both directions ($Z_{\\text{crit}} = \\pm 1.96$ at 95% confidence), allowing you to rigorously detect both whether Variant B is significantly better OR significantly worse than Control A. Industry experimentation platforms (Optimizely, VWO, GrowthBook, Statsig) recommend Two-Tailed tests by default.",
+      },
+    ],
+    related: [
+      "llm-token-counter-cost-calculator",
+      "json-yaml-toml-schema-converter",
+      "rss-atom-json-feed-widget-previewer",
+      "network-download-mtu-bdp-calculator",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/best-a-b-testing-tools/",
+    pillarTitle: "10 Best A/B Testing & Experimentation Tools in 2026",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "network-download-mtu-bdp-calculator",
+    name: "Network Download Time, TCP BDP & WireGuard/PPPoE MTU Calculator",
+    category: "tech",
+    h1: "Network Download Time, TCP Bandwidth-Delay Product (BDP) & VPN MTU/MSS Calculator (2026)",
+    subhead:
+      "Calculate real-world file transfer durations (accounting for TCP/IP framing overhead and Bits vs. Bytes), compute TCP Window Size / Bandwidth-Delay Product (BDP) for high-latency links, and solve exact MTU & TCP MSS clamping for PPPoE, WireGuard, OpenVPN, and IPsec.",
+    primaryKeyword: "file download time mtu bdp calculator",
+    secondaryKeywords: [
+      "tcp bandwidth delay product bdp calculator",
+      "wireguard pppoe mtu mss clamping calculator",
+      "mbps to MBps file download time calculator",
+      "why is my gigabit internet slow over high latency",
+    ],
+    metaTitle: "Network Download Time, TCP BDP & WireGuard/PPPoE MTU Calculator (2026)",
+    metaDescription:
+      "Calculate real file download times (Mbps vs MB/s with TCP/IP overhead), compute TCP Bandwidth-Delay Product (BDP) window sizes, and find exact MTU & MSS clamping values for WireGuard, PPPoE, and IPsec.",
+    features: [
+      {
+        title: "Protocol-Accurate File Download & Upload Time Estimator",
+        description:
+          "Convert file sizes (MB, GB, GiB, TB) across link speeds (10 Mbps to 10 Gbps / Wi-Fi 7) while factoring in RFC 2544 TCP/IPv4/Ethernet header efficiency (94.93% payload ratio).",
+        icon: "Zap",
+      },
+      {
+        title: "TCP Bandwidth-Delay Product (BDP) & Throughput Bottleneck Analyzer",
+        description:
+          "Compute $\\text{BDP} = \\text{Bandwidth} \\times \\text{RTT}$, required TCP Receive Window (`SO_RCVBUF` / RFC 1323 Window Scale factor), and the exact single-stream throughput limit caused by latency and packet loss (Mathis equation).",
+        icon: "Activity",
+      },
+      {
+        title: "Exact Tunnel MTU & TCP MSS Clamping Calculator",
+        description:
+          "Stack underlying transport layers (Standard 1500B Ethernet, 1492B PPPoE Fiber/DSL, DS-Lite, VLAN) with VPN encapsulations (WireGuard IPv4/IPv6, IPSec ESP, OpenVPN, GRE, VXLAN) to compute exact safe MTU and `iptables` TCP MSS values.",
+        icon: "Wifi",
+      },
+      {
+        title: "Copy-Ready Ping DF-Bit PMTUD & Router MSS Clamping Commands",
+        description:
+          "Generate exact `ping -f -l` (Windows), `ping -D -s` (macOS), `ping -M do -s` (Linux) Path MTU Discovery test commands plus Linux `nftables`/`iptables` and Cisco/MikroTik MSS clamping rules.",
+        icon: "Terminal",
+      },
+    ],
+    useCases: [
+      {
+        title: "Fixing 'Websites Hang or Fail to Load' Over WireGuard & PPPoE",
+        description:
+          "Calculate the exact WireGuard `MTU = 1412` (for PPPoE + IPv6) and TCP `MSS = 1352` to eliminate Path MTU Discovery (PMTUD) blackholes when ICMP Fragmentation Needed packets are dropped.",
+      },
+      {
+        title: "Diagnosing Slow Single-Stream Transfers on 1 Gbps+ Fiber Links",
+        description:
+          "Use the TCP BDP and Mathis Packet-Loss calculator to see why a 1 Gbps transatlantic link (120ms RTT) caps out at 4.3 Mbps with a default 64 KB TCP window or 0.1% packet loss.",
+      },
+      {
+        title: "Game Update, 4K Remux & Cloud Backup Transfer Planning",
+        description:
+          "Convert ISP marketing megabits per second (Mbps) into real megabytes per second (MB/s) after L2/L3/L4 protocol overhead.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Enter File Size (GB/TB) & Link Speed (Mbps/Gbps) in the Download Tab",
+        text: "Select a preset (100 GB Game, 1 TB Backup, 4K Movie) or custom size and enter your connection speed to compare theoretical vs. real TCP/IP goodput transfer times.",
+      },
+      {
+        name: "Calculate TCP BDP & Optimal Window Buffer for Your Latency (RTT)",
+        text: "Switch to the TCP BDP tab, enter link bandwidth (Mbps), Round-Trip Time (ms), and packet loss (%) to compute the required TCP Window Size (KB/MB) and `sysctl` tuning parameters.",
+      },
+      {
+        name: "Select WAN Transport & VPN Protocol in the MTU/MSS Calculator",
+        text: "Choose your WAN link (1500 Ethernet or 1492 PPPoE) and tunnel overlay (WireGuard, IPsec, OpenVPN, GRE) with IPv4 or IPv6 outer/inner headers.",
+      },
+      {
+        name: "Copy Your Exact Ping PMTUD Test & Router MSS Clamping Config",
+        text: "Verify the byte-by-byte header deduction waterfall and copy the exact `ping` payload size (`MTU - 28`) and WireGuard/Router configuration snippet.",
+      },
+    ],
+    faq: [
+      {
+        question: "Why does a 100 Mbps internet connection download at ~11.8 MB/s instead of 12.5 MB/s?",
+        answer:
+          "First, ISP speeds are measured in decimal **megabits per second** ($100,000,000\\text{ bits/s}$), whereas file sizes are measured in **megabytes** (8 bits = 1 byte, so $100 / 8 = 12.5\\text{ MB/s}$ raw rate). Second, on a standard 1500-byte MTU link, every packet carries 20 bytes of IPv4 header + 20 bytes of TCP header + 12 bytes of TCP timestamps + 38 bytes of Ethernet L1/L2 framing—leaving $1448 / 1538 = \\mathbf{94.15\\%}$ payload goodput, which equals $\\approx 11.77\\text{ MB/s}$ (or $11.22\\text{ MiB/s}$).",
+      },
+      {
+        question: "What is the TCP Bandwidth-Delay Product (BDP) and why does high latency choke fast connections?",
+        answer:
+          "TCP requires the sender to keep unacknowledged data buffered in flight until the receiver returns an ACK packet one Round-Trip Time (RTT) later. The maximum data in flight on the wire is the **Bandwidth-Delay Product**: $\\text{BDP (Bytes)} = (\\text{Bandwidth in bps} \\times \\text{RTT in seconds}) / 8$. On a 1 Gbps link with 100 ms RTT, $\\text{BDP} = 12.5\\text{ MB}$. If the OS TCP Receive Window (`RWIN`) is capped at the legacy 64 KB default, maximum single-connection throughput is strictly limited to $64\\text{ KB} / 0.1\\text{s} = \\mathbf{5.24\\text{ Mbps}}$—wasting 99.5% of your gigabit connection.",
+      },
+      {
+        question: "Why is WireGuard's default MTU set to 1420 bytes, and when must it be lowered to 1412?",
+        answer:
+          "WireGuard encapsulates inner packets inside UDP with a 32-byte WireGuard header (4B type + 4B key index + 8B nonce + 16B Poly1305 auth tag), plus an 8-byte UDP header, plus a 20-byte IPv4 header (total 60 bytes) or a 40-byte IPv6 header (total **80 bytes**). On a standard 1500-byte Ethernet WAN, $1500 - 80 = \\mathbf{1420\\text{ bytes}}$. However, if either endpoint uses **PPPoE Fiber/DSL** (which consumes 8 bytes for PPPoE framing, reducing WAN MTU to 1492), you must subtract another 8 bytes: $1492 - 80 = \\mathbf{1412\\text{ bytes}}$.",
+      },
+      {
+        question: "How do I find my connection's exact Maximum Transmission Unit (MTU) using `ping`?",
+        answer:
+          "When testing with ICMP `ping` and the Don't Fragment (DF) flag set, you must subtract **28 bytes** (20-byte IPv4 header + 8-byte ICMP Echo header) from the target MTU to get the ping payload size. For a 1500 MTU link, the maximum unfragmented ping payload is $1500 - 28 = \\mathbf{1472\\text{ bytes}}$ (`ping -M do -s 1472 1.1.1.1` on Linux, `ping -D -s 1472 1.1.1.1` on macOS, or `ping -f -l 1472 1.1.1.1` on Windows).",
+      },
+      {
+        question: "What is TCP MSS Clamping and how is MSS derived from MTU?",
+        answer:
+          "The TCP Maximum Segment Size (MSS) announced during the 3-way SYN handshake specifies the maximum TCP payload per packet: $\\text{MSS} = \\text{MTU} - 20\\text{B (IPv4)} - 20\\text{B (TCP)} = \\text{MTU} - 40$ (or $\\text{MTU} - 60$ for IPv6). Configuring `--clamp-mss-to-pmtu` on your router rewrites the SYN packet's MSS option so remote servers never send packets larger than your tunnel MTU.",
+      },
+    ],
+    related: [
+      "wireguard-config-generator",
+      "cidr-subnet-wildcard-calculator",
+      "live-bgp-asn-peering-looking-glass",
+      "video-bitrate-4k-ffmpeg-command-builder",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/best-wi-fi-routers/",
+    pillarTitle: "10 Best Wi-Fi 6E & Wi-Fi 7 Routers for 2026",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "fitness-vo2max-hr-zone-tdee-calculator",
+    name: "Karvonen Heart Rate Zones, VO2 Max & TDEE Biometric Calculator",
+    category: "apps",
+    h1: "Karvonen Heart Rate Reserve (HRR) Zones, VO2 Max & TDEE Biometric Calculator (2026)",
+    subhead:
+      "Calculate personalized 5-zone aerobic and anaerobic heart rate targets using the Karvonen Heart Rate Reserve (HRR) formula, estimate VO2 Max fitness percentiles (Uth-Sørensen & Cooper 12-Min), and compute Mifflin-St Jeor BMR & TDEE.",
+    primaryKeyword: "karvonen heart rate zones vo2 max calculator",
+    secondaryKeywords: [
+      "karvonen heart rate reserve zone 2 calculator",
+      "resting to max heart rate vo2 max calculator",
+      "mifflin st jeor bmr tdee macro calculator",
+      "tanaka vs fox max heart rate formula",
+    ],
+    metaTitle: "Karvonen Heart Rate Zones (Zone 2), VO2 Max & TDEE Calculator (2026)",
+    metaDescription:
+      "Calculate accurate Zone 1–5 training heart rates using the Karvonen Heart Rate Reserve (HRR) formula and Tanaka HRmax. Estimate VO2 Max (mL/kg/min) and Mifflin-St Jeor BMR/TDEE calories.",
+    features: [
+      {
+        title: "Karvonen Heart Rate Reserve (HRR) 5-Zone Engine",
+        description:
+          "Compute personalized Zone 1–5 BPM bands using $\\text{Target HR} = ((\\text{HR}_{\\max} - \\text{HR}_{\\text{rest}}) \\times \\%\\text{Intensity}) + \\text{HR}_{\\text{rest}}$ and compare directly against standard $\\%\\text{HR}_{\\max}$ zones.",
+        icon: "Activity",
+      },
+      {
+        title: "Multi-Formula Max Heart Rate ($\\text{HR}_{\\max}$) & Lactate Threshold",
+        description:
+          "Switch between Tanaka ($208 - 0.7 \\times \\text{Age}$), Gellish ($207 - 0.7 \\times \\text{Age}$), Gulati Female ($206 - 0.88 \\times \\text{Age}$), classic Fox ($220 - \\text{Age}$), or enter a lab-tested custom $\\text{HR}_{\\max}$.",
+        icon: "Zap",
+      },
+      {
+        title: "Dual-Method $\\text{VO}_2\\text{ Max}$ Cardiorespiratory Fitness Estimator",
+        description:
+          "Estimate maximal oxygen uptake ($\\text{mL}/\\text{kg}/\\text{min}$) via the Uth-Sørensen Resting Ratio ($15.3 \\times \\text{HR}_{\\max} / \\text{HR}_{\\text{rest}}$) and Cooper 12-Minute Run Test with ACSM age-graded fitness tiers.",
+        icon: "Cpu",
+      },
+      {
+        title: "Mifflin-St Jeor BMR, TDEE & Macronutrient Split Planner",
+        description:
+          "Calculate Basal Metabolic Rate (BMR), Total Daily Energy Expenditure (TDEE), and daily Protein/Carb/Fat gram targets for Maintenance, Fat Loss (−500 kcal), or Lean Performance.",
+        icon: "Shield",
+      },
+    ],
+    useCases: [
+      {
+        title: "Calibrating Accurate Zone 2 Mitochondrial Training on Smartwatches",
+        description:
+          "Replace inaccurate default Garmin, Apple Watch, or Fitbit $220 - \\text{Age}$ zones with custom Karvonen HRR thresholds tailored to your actual morning Resting Heart Rate.",
+      },
+      {
+        title: "Tracking Longevity & Cardiorespiratory $\\text{VO}_2\\text{ Max}$ Progression",
+        description:
+          "Monitor how lowering your resting heart rate (e.g., from 68 bpm to 52 bpm) shifts your $\\text{VO}_2\\text{ Max}$ from 'Fair' into the 'Superior' longevity percentile.",
+      },
+      {
+        title: "Evidence-Based Calorie & Macro Programming Without Cloud Tracking",
+        description:
+          "Compute Mifflin-St Jeor BMR and activity-adjusted TDEE locally in your browser without creating an account or sharing health metrics with ad networks.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Enter Age, Resting Heart Rate (RHR) & Body Metrics",
+        text: "Input your age, morning resting heart rate (measured via fitness tracker or pulse), biological sex, weight (kg), and height (cm).",
+      },
+      {
+        name: "Select Your $\\text{HR}_{\\max}$ Formula (Tanaka Recommended) or Custom Lab Value",
+        text: "Choose Tanaka ($208 - 0.7 \\times \\text{Age}$) or enter a known peak heart rate recorded during an all-out 5K or hill sprint.",
+      },
+      {
+        name: "Compare Karvonen HRR Zones (Zone 1–5) & Copy Watch Thresholds",
+        text: "Inspect the 5-zone BPM table showing exact Karvonen HRR ranges (including Zone 2 60%–70% HRR fat-oxidation / aerobic base) alongside standard %HRmax values.",
+      },
+      {
+        name: "Review Your $\\text{VO}_2\\text{ Max}$ Percentile & Mifflin-St Jeor TDEE Macros",
+        text: "Check your estimated $\\text{VO}_2\\text{ Max}$ ($\text{mL}/\\text{kg}/\\text{min}$), optional Cooper 12-minute distance score, and daily BMR/TDEE calorie & macronutrient breakdown.",
+      },
+    ],
+    faq: [
+      {
+        question: "Why is the Karvonen Heart Rate Reserve (HRR) formula much more accurate than standard % Max HR?",
+        answer:
+          "Standard $\\%\\text{HR}_{\\max}$ completely ignores your cardiovascular fitness baseline (Resting Heart Rate). Two 35-year-olds might share an $\\text{HR}_{\\max}$ of 184 bpm, but an endurance runner with a Resting HR of 46 bpm has a working Heart Rate Reserve ($\\text{HR}_{\\max} - \\text{HR}_{\\text{rest}}$) of 138 bpm, whereas a sedentary person at 76 bpm has an HRR of 108 bpm. Karvonen percentages ($60\\%–70\\%\\text{ HRR}$ for Zone 2) correlate directly with percentage of $\\text{VO}_2\\text{ Reserve}$ ($\\text{VO}_2\\text{R}$).",
+      },
+      {
+        question: "Why do exercise physiologists prefer the Tanaka formula ($208 - 0.7 \\times \\text{Age}$) over $220 - \\text{Age}$?",
+        answer:
+          "The classic Fox formula ($220 - \\text{Age}$) was a rough visual observation from 1971 that significantly underestimates maximum heart rate in adults over age 35. Tanaka et al. (2001) analyzed 18,712 subjects across 351 studies and established the regression $\\text{HR}_{\\max} = 208 - (0.7 \\times \\text{Age})$, which is far more accurate for active adults.",
+      },
+      {
+        question: "What happens physiologically in Zone 2 (60%–70% Heart Rate Reserve)?",
+        answer:
+          "In Zone 2 (Aerobic Base / Conversational Pace), Type I slow-twitch muscle fibers oxidize fat and clear blood lactate as fast as it is produced (staying below LT1, ~$2\\text{ mmol/L}$ lactate). Training in Zone 2 stimulates mitochondrial biogenesis and capillary density without accumulating high autonomic nervous system fatigue.",
+      },
+      {
+        question: "How does the Uth-Sørensen-Overgaard-Pedersen formula estimate $\\text{VO}_2\\text{ Max}$?",
+        answer:
+          "Published in the *European Journal of Applied Physiology*, Uth et al. demonstrated that maximal oxygen uptake is proportional to the ratio of maximum to resting heart rate (which reflects stroke volume efficiency): $\\text{VO}_2\\text{ Max} \\approx 15.3 \\times (\\text{HR}_{\\max} / \\text{HR}_{\\text{rest}})\\text{ mL}/\\text{kg}/\\text{min}$. You can also cross-check this with the Cooper 12-Minute Run formula: $\\text{VO}_2\\text{ Max} = (d_{\\text{meters}} - 504.9) / 44.73$.",
+      },
+      {
+        question: "Why is the Mifflin-St Jeor equation the clinical gold standard for BMR?",
+        answer:
+          "The American Dietetic Association evaluated Resting Energy Expenditure equations against indirect calorimetry and found Mifflin-St Jeor ($10 \\times \\text{kg} + 6.25 \\times \\text{cm} - 5 \\times \\text{Age} + 5$ for men, or $- 161$ for women) predicts Basal Metabolic Rate within 10% of measured metabolic cart values more reliably than the 1919 Harris-Benedict equation.",
+      },
+    ],
+    related: [
+      "bluetooth-audio-latency-stereo-tester",
+      "power-bank-mah-wh-flight-limit-calculator",
+      "smartphone-display-pwm-oled-tester",
+      "typing-wpm-keystroke-dynamics-lab",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/best-fitness-trackers/",
+    pillarTitle: "10 Best Fitness Tracker Watches in 2026",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+  {
+    slug: "github-security-advisory-npm-pip-auditor",
+    name: "Live package.json & requirements.txt CVE Dependency Auditor",
+    category: "cybersecurity",
+    h1: "Live package.json & requirements.txt CVE Dependency Auditor (2026)",
+    subhead:
+      "Paste any Node.js `package.json` or Python `requirements.txt` manifest to query the live Google OSV.dev (Open Source Vulnerabilities) & GitHub Security Advisory database for known CVEs, GHSAs, CVSS scores, and patched versions.",
+    primaryKeyword: "package json vulnerability scanner osv",
+    secondaryKeywords: [
+      "online package.json cve security scanner",
+      "requirements.txt vulnerability checker osv.dev",
+      "github security advisory dependency auditor",
+      "npm pip supply chain security checker",
+    ],
+    metaTitle: "Live package.json & requirements.txt CVE Dependency Auditor (2026)",
+    metaDescription:
+      "Scan Node.js package.json and Python requirements.txt files in your browser against the live OSV.dev and GitHub Security Advisory (GHSA/CVE) database. Find vulnerable dependencies and exact patched versions.",
+    features: [
+      {
+        title: "Live Google OSV.dev & GitHub Advisory (GHSA/CVE) Batch Query Engine",
+        description:
+          "Parse `dependencies` and `devDependencies` from `package.json` or pinned packages from `requirements.txt` and query `https://api.osv.dev/v1/querybatch` directly from your browser.",
+        icon: "Shield",
+      },
+      {
+        title: "SemVer Range Normalizer & Pinning Hygiene Linter",
+        description:
+          "Strip caret (`^`), tilde (`~`), and `>=` range operators to test resolved versions while flagging risky wildcard (`*`), `latest`, Git URL, and unpinned floating dependencies.",
+        icon: "Code",
+      },
+      {
+        title: "CVSS Severity Breakdown & Patched Version Resolver",
+        description:
+          "Inspect full advisory details including GHSA/CVE/PYSEC identifiers, CVSS v3/v4 severity ratings, CWE classifications, vulnerability summaries, and the exact minimum fixed version.",
+        icon: "Search",
+      },
+      {
+        title: "One-Click Remediation CLI (`npm install` / `pip install`) & SBOM Exporter",
+        description:
+          "Generate copy-ready `npm install pkg@fixed` or `pip install pkg==fixed` upgrade commands alongside a CycloneDX-style JSON Software Bill of Materials (SBOM) summary.",
+        icon: "Terminal",
+      },
+    ],
+    useCases: [
+      {
+        title: "Rapid CI/CD & Pull Request Dependency Triage",
+        description:
+          "Paste any project's `package.json` or `requirements.txt` during code review to immediately check for known Remote Code Execution (RCE), Prototype Pollution, or ReDoS CVEs.",
+      },
+      {
+        title: "Auditing Legacy Repositories Before Running `npm install`",
+        description:
+          "Inspect unfamiliar open-source repos or CTF templates in the browser before executing local package installation scripts on your workstation.",
+      },
+      {
+        title: "DevSecOps Supply-Chain Pinning & SBOM Hygiene",
+        description:
+          "Identify floating `^`/`~` SemVer ranges that expose builds to transitive dependency drift and generate exact pinned upgrade manifests.",
+      },
+    ],
+    howTo: [
+      {
+        name: "Select Ecosystem (`package.json` npm or `requirements.txt` PyPI)",
+        text: "Choose Node.js (`package.json`) or Python (`requirements.txt`), or load one of the built-in vulnerable manifest presets (Legacy Express/Lodash or Vulnerable Django/Requests).",
+      },
+      {
+        name: "Paste Your Manifest & Run the Live OSV.dev Audit",
+        text: "Click 'Run Live CVE Audit' to parse all package names and versions and execute a live batch query against the OSV.dev / GitHub Advisory API.",
+      },
+      {
+        name: "Inspect Discovered CVEs, GHSA Advisories & Fixed Versions",
+        text: "Expand any flagged package to view its CVE/GHSA IDs, CVSS severity, vulnerability summary, and the exact `fixed` SemVer release.",
+      },
+      {
+        name: "Copy the Upgrade CLI Command or Patched Manifest",
+        text: "Copy the generated `npm install` / `pip install` remediation one-liner to upgrade all vulnerable dependencies to their patched versions.",
+      },
+    ],
+    faq: [
+      {
+        question: "How does this tool scan dependencies for real CVEs directly in the browser?",
+        answer:
+          "Your browser parses the package names and version numbers locally and sends a batch query to Google's open-source **OSV.dev API** (`api.osv.dev`), which aggregates live advisories from the **GitHub Security Advisory Database (GHSA)**, **National Vulnerability Database (NVD)**, **PyPA Advisory Database (PYSEC)**, and **RustSec/GoVulnDB**.",
+      },
+      {
+        question: "Why are caret (`^`) and tilde (`~`) version ranges risky in production `package.json` files?",
+        answer:
+          "In npm SemVer syntax, `^1.2.3` permits any minor or patch update up to `<2.0.0`. If you deploy without a committed `package-lock.json` and `npm ci`, a freshly published compromised minor version (supply-chain typosquatting or maintainer account takeover) can be pulled automatically during CI builds.",
+      },
+      {
+        question: "What is the difference between a CVE ID and a GHSA ID?",
+        answer:
+          "CVE (Common Vulnerabilities and Exposures, e.g., `CVE-2021-23337`) is the centralized identifier assigned by MITRE and CVE Numbering Authorities (CNAs). GHSA (GitHub Security Advisory, e.g., `GHSA-35jh-r3h4-6jhm`) is GitHub's native open-source ecosystem advisory identifier, which maps directly to CVEs and tracks exact affected/patched SemVer ranges for npm, PyPI, Maven, Cargo, and Go.",
+      },
+      {
+        question: "Why should DevSecOps pipelines use `npm ci` instead of `npm install`?",
+        answer:
+          "`npm install` can modify `package-lock.json` and resolve newer sub-dependencies that match loose ranges in `package.json`. In contrast, `npm ci` strictly enforces the exact cryptographic SHA-512 integrity hashes and versions recorded in `package-lock.json` and aborts immediately if `package.json` and the lockfile are out of sync.",
+      },
+      {
+        question: "Does pasting my `package.json` leak private proprietary code?",
+        answer:
+          "No. Your manifest is parsed locally in your browser, and only the list of `{ package: { name, ecosystem }, version }` objects is queried against the public OSV.dev API over HTTPS.",
+      },
+    ],
+    related: [
+      "cve-cvss-v4-score-calculator",
+      "git-command-interactive-builder",
+      "docker-run-to-compose-converter",
+      "chmod-umask-permissions-calculator",
+    ],
+    pillarUrl: "https://www.zerosuniverse.com/best-automation-tools/",
+    pillarTitle: "10 Best DevSecOps & Automation Tools to Use in 2026",
+    lastUpdated: "2026-09-28T00:00:00.000Z",
+  },
+];
