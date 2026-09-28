@@ -26,11 +26,6 @@ export function ToolPageShell({
 }: ToolPageShellProps) {
   const catInfo = categories[tool.category];
   const canonicalUrl = `https://www.zerosuniverse.com/tools/${tool.slug}/`;
-  const formattedDate = new Date(tool.lastUpdated).toLocaleDateString("en-US", {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-  });
 
   const softwareSchema = {
     "@context": "https://schema.org",
@@ -93,33 +88,12 @@ export function ToolPageShell({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
 
-      {/* Breadcrumbs matching SmartMag */}
-      <nav aria-label="Breadcrumb" className="mb-4 text-xs text-text-muted flex flex-wrap items-center gap-1.5">
-        <a href="https://www.zerosuniverse.com/" className="hover:text-accent transition">
-          Home
-        </a>
-        <span>&raquo;</span>
-        <Link href="/tools/" className="hover:text-accent transition">
-          Tools
-        </Link>
-        <span>&raquo;</span>
-        <a href={catInfo.wpUrl} className="hover:text-accent transition">
-          {catInfo.label}
-        </a>
-        <span>&raquo;</span>
-        <span className="text-text font-medium">{tool.name}</span>
-      </nav>
-
       {/* SmartMag Modern Post Header (.the-post-header.s-head-modern-a) */}
       <div className="border-b border-border pb-6 mb-8">
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <a href={catInfo.wpUrl} className="cat-badge">
             {catInfo.label}
           </a>
-          <span className="inline-flex items-center gap-1 rounded-xs border border-border bg-background px-2 py-0.5 text-[11px] font-medium text-text-muted">
-            <ShieldCheck className="h-3.5 w-3.5 text-accent" />
-            100% Client-Side Browser Tool (Zero Server Upload)
-          </span>
         </div>
 
         <h1 className="font-heading text-3xl sm:text-4xl lg:text-[40px] font-bold tracking-tight text-text leading-[1.18]">
@@ -130,55 +104,40 @@ export function ToolPageShell({
           {tool.subhead}
         </p>
 
-        {/* SmartMag Author Meta Bar + Share Buttons */}
-        <div className="mt-5 flex flex-wrap items-center justify-between gap-4">
-          <div className="flex items-center gap-2.5 text-xs sm:text-sm text-text-muted">
-            <img
-              src="https://cdn.zerosuniverse.com/wp-content/uploads/2022/06/Zerosuniverse.jpg"
-              alt="zerosuniverse Team"
-              width={32}
-              height={32}
-              className="h-8 w-8 rounded-full object-cover border border-border"
-            />
-            <span>
-              By{" "}
-              <a
-                href="https://www.zerosuniverse.com/author/zerosuniverse/"
-                className="font-semibold text-text hover:text-accent transition"
-              >
-                zerosuniverse Team
-              </a>
-            </span>
-            <span>&ndash;</span>
-            <time dateTime={tool.lastUpdated}>{formattedDate}</time>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <a
-              href={`https://www.facebook.com/sharer.php?u=${encodeURIComponent(canonicalUrl)}`}
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-xs bg-[#1877f2] px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90 transition"
-            >
-              Facebook
-            </a>
-            <a
-              href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(canonicalUrl)}&text=${encodeURIComponent(tool.h1)}`}
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-xs bg-[#161616] border border-[#333] px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90 transition"
-            >
-              X (Twitter)
-            </a>
-            <a
-              href={`https://api.whatsapp.com/send?text=${encodeURIComponent(tool.h1 + " " + canonicalUrl)}`}
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-xs bg-[#25d366] px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90 transition"
-            >
-              WhatsApp
-            </a>
-          </div>
+        {/* Share Buttons */}
+        <div className="mt-5 flex flex-wrap items-center gap-2">
+          <a
+            href={`https://www.facebook.com/sharer.php?u=${encodeURIComponent(canonicalUrl)}`}
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            className="inline-flex items-center gap-1.5 rounded-xs bg-[#1877f2] px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90 transition"
+          >
+            Facebook
+          </a>
+          <a
+            href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(canonicalUrl)}&text=${encodeURIComponent(tool.h1)}`}
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            className="inline-flex items-center gap-1.5 rounded-xs bg-[#161616] border border-[#333] px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90 transition"
+          >
+            X (Twitter)
+          </a>
+          <a
+            href={`https://api.whatsapp.com/send?text=${encodeURIComponent(tool.h1 + " " + canonicalUrl)}`}
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            className="inline-flex items-center gap-1.5 rounded-xs bg-[#25d366] px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90 transition"
+          >
+            WhatsApp
+          </a>
+          <a
+            href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(canonicalUrl)}`}
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            className="inline-flex items-center gap-1.5 rounded-xs bg-[#0a66c2] px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90 transition"
+          >
+            LinkedIn
+          </a>
         </div>
       </div>
 
